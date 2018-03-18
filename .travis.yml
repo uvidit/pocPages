@@ -1,3 +1,7 @@
+language: java
+sudo: false
+
+script: echo Helloooo
 deploy:
   provider: pages
   skip-cleanup: true
