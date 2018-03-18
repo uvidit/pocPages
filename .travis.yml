@@ -6,5 +6,5 @@ deploy:
   on:
     branch: master
   local_dir: public
-  repo:  uvidit/pocProjectDocPages
+  repo:  uvidit/pocProjectDocPages.git
   target-branch: gh-pages
