@@ -5,7 +5,7 @@ BUCKET_NAME=allure-poc-prjct-bucket
 gsutil cp gs://${BUCKET_NAME}/* ./public/
 ls ./public
 
-script: gsutil cp gs://${BUCKET_NAME}/* ./public/ && ls ./public
+script: "gsutil cp gs://${BUCKET_NAME}/* ./public/ && ls ./public"
 deploy:
   provider: pages
   skip-cleanup: true
