@@ -3,7 +3,7 @@ sudo: false
 
 script:
   - gsutil cp gs://allure-poc-prjct-bucket/* ./public/
-  - ls ./public
+  - bash ls ./public
 deploy:
   provider: pages
   skip-cleanup: true
