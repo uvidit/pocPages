@@ -1,8 +1,11 @@
 language: java
 sudo: false
 
+BUCKET_NAME=allure-poc-prjct-bucket
+
 script:
-  - bash publishing.sh
+  - gsutil cp gs://${BUCKET_NAME}/* ./public/
+  - ls ./public
 deploy:
   provider: pages
   skip-cleanup: true
