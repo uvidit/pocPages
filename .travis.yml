@@ -1,10 +1,6 @@
 language: java
 sudo: false
 
-BUCKET_NAME=allure-poc-prjct-bucket
-gsutil cp gs://${BUCKET_NAME}/* ./public/
-ls ./public
-
 script:
   - publishing.sh
 deploy:
