@@ -16,6 +16,8 @@ deploy:
   - openssl aes-256-cbc -K $encrypted_c5904ac432bd_key -iv $encrypted_c5904ac432bd_iv -in super_secret.txt.enc -out super_secret.txt -d
   - gsutil -m cp -r gs://${BUCKET_NAME}/** ./public/
   - bash ls ./public
+  - git add --ignore-errors -- public/*.json
+
 
 
   # Skip cleanup so api_key.py and vendored dependencies are still there
