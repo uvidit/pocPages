@@ -17,6 +17,7 @@ deploy:
     - gsutil -m cp -r gs://${BUCKET_NAME}/** ./public/
     - bash ls ./public
     - git add --ignore-errors -- public/*.json
+    - echo "END. "
 
 
 
