@@ -6,14 +6,21 @@ BUCKET_NAME=allure-poc-prjct-bucket
 rm -rf ./public/**
 
 # installing Google SDK
-GCLOUD_DIR=google-cloud-sdk
+#GCLOUD_DIR=google-cloud-sdk
 echo "Google SDK install...."
-curl https://sdk.cloud.google.com | exec bash #| echo "downloading in progress..."
-chmod +x ~/${GCLOUD_DIR}/install.sh
-CLOUDSDK_CORE_DISABLE_PROMPTS=1 ~/${GCLOUD_DIR}/install.sh
+#curl https://sdk.cloud.google.com | exec bash #| echo "downloading in progress..."
+#chmod +x ~/${GCLOUD_DIR}/install.sh
+#CLOUDSDK_CORE_DISABLE_PROMPTS=1 ~/${GCLOUD_DIR}/install.sh
 
-source /Users/ozinchenko/google-cloud-sdk/completion.bash.inc
-source /Users/ozinchenko/google-cloud-sdk/path.bash.inc
+#$HOME/google-cloud-sdk/
+gcloud version || true
+if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export CLOUDSDK_CORE_DISABLE_PROMPTS=1; curl https://sdk.cloud.google.com | bash; fi
+# Add gcloud to $PATH
+source $HOME/google-cloud-sdk/path.bash.inc
+gcloud version
+
+source $HOME/google-cloud-sdk/completion.bash.inc
+source $HOME/google-cloud-sdk/path.bash.inc
 
 gcloud auth activate-service-account \
     gc-svc-acc-allure-reporter-prj@test-gce-prjct.iam.gserviceaccount.com \
