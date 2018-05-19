@@ -1,6 +1,4 @@
-language: java
 sudo: false
-
 deploy:
   # deploy develop to the staging environment
   - provider: script
