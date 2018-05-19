@@ -7,7 +7,4 @@ deploy:
   keep-history: true
   local-dir: public
   on:
-    target-branch: gh-pages
     local-dir: public
-
-#      repo:  uvidit/pocProjectDocPages
