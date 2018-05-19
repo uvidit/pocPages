@@ -10,11 +10,9 @@ echo "Google SDK install...."
 gcloud version || true
 if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export CLOUDSDK_CORE_DISABLE_PROMPTS=1; curl https://sdk.cloud.google.com | bash; fi
 # Add gcloud to $PATH
-source $HOME/google-cloud-sdk/path.bash.inc
-gcloud version
-
 source $HOME/google-cloud-sdk/completion.bash.inc
 source $HOME/google-cloud-sdk/path.bash.inc
+gcloud version
 
 gcloud auth activate-service-account \
     gc-svc-acc-allure-reporter-prj@test-gce-prjct.iam.gserviceaccount.com \
@@ -25,9 +23,9 @@ echo "Google SDK info:"
 gcloud info
 
 echo "Google SDK downloaded."
-echo "Creating Bucket on Google Storage....."
+echo "Get report data from Bucket on Google Storage....."
+gsutil -m cp -r gs://${BUCKET_NAME}/allure-report/* ./public/
 
-gsutil -m cp gs://${BUCKET_NAME}/allure-report/** ./public/
 echo "Check file list in 'public':"
 ls ./public
 
