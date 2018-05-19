@@ -1,7 +1,2 @@
 sudo: false
-deploy:
-  # deploy develop to the staging environment
-  - provider: script
-    script: bash publishing.sh
-    on:
-      branch: master
+script: bash publishing.sh
