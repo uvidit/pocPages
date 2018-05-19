@@ -8,7 +8,7 @@ rm -rf ./public/**
 # installing Google SDK
 GCLOUD_DIR=google-cloud-sdk
 echo "Google SDK install...."
-curl https://sdk.cloud.google.com #| echo "downloading in progress..."
+curl https://sdk.cloud.google.com | exec bash #| echo "downloading in progress..."
 chmod +x ~/${GCLOUD_DIR}/install.sh
 CLOUDSDK_CORE_DISABLE_PROMPTS=1 ~/${GCLOUD_DIR}/install.sh
 
