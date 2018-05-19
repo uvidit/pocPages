@@ -28,9 +28,9 @@ echo "Creating Bucket on Google Storage....."
 gsutil -m cp gs://${BUCKET_NAME}/allure-report/** ./public/
 ls ./public
 
-#git add ./public/*
-#git commit -m "Updated report data"
-#git push origin HEAD:master
+git add ./public/*
+git commit -m "Updated report data"
+git push origin HEAD:master
 
 echo "Report updated. Se you later! %)"
 
