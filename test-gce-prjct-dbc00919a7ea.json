@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "test-gce-prjct",
+  "private_key_id": "dbc00919a7eaefa8b223c9d7b67d392edc3a9c75",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChSdiFnIQ3U6fN\nqGttow7hhSIg4sqie/pQjkLopTe4ev7a9fKAQeYJF/u8v4vVbvhH5Ndkl6xi6U89\nRHnru6JZOjh3ZTqJWdNPBZ1e+mOmZ7nuNZO5HlOKEw2eMz0UICJIrYu1hlz/s6Kk\nDU6Adp1ZC6AM5EvI3jRaX5gyBzWzRIFch++sUWdErexX7Etdla+OsC+FjhlXWDeW\n7lK1BN27iQa/RqxiZe+BwsHkUxhGgQv6+n6bKKOKIxHm8nQEdOBgfxtCFMpGkPH4\n+xM2xQ78fqUKKPKfeLhdPeq04uNVpk6L6GG5fLBCvSTN4wTymcdxI+Z7Fec+//PM\nxv4hVMSvAgMBAAECggEAA5fVjwRxnZnrfxVlb0fWqQeCPyFOSlhgtzK0IuKrXxy+\nWLpp8JmHOmSiYw4RW2vhdBiRA9itKnbwIPlJjgrcDwjRATfsGes6XeROITOKzMY6\nyie/ZrxaOBU8lG2nyq78lInpNt4LbFbgJK93ND1wO++aXS8o0QzCNdEzXsnyVFAF\nUekBb1CU797bto1XwWpMwqnvI/cDhWTsNrya/UIwXQ8L86o2KLPjKD33ZLGII29j\noYYxXToFOpp4eEKCj4EXW5EQaQuEo23MkWuv6Qf9y3GyPpo+VaDL3OGbBaWEZEJr\n1L9NmFypv4itI6tvoZe3/1Kfmoq/EUflQZdfFY4jQQKBgQDUBgN7ooz4bKRGq9Vb\nCv/ZwyyhRifJlD1G8+8AU1gWVTwW0Q5nWyvhp+4AFTfc8ZkZ0Tvm58JmYItG33W0\nPurW+07cNHbFmgRM3O5Qci6FoDMxh30z3Bktpolg1W0YPWnkzLQLoUa6BCAS/uxw\nbLNCgESuFIHblrriVgX67BIvWQKBgQDCvemQvPbjMSXGY6nSYaewdBJRmMwZr2OZ\nuf+4dGfCnzcEfwYnD0jOtHYi1UGpRvYjGUsPvKAFpRYzwYd5+5sRskPjgVsXy68D\nOt2JIS+kHI8wIGS+FZX8vimvLTe3JRGdF7qWrehw8yRQ3v5q9jvOwLghwKSYoLyO\nv5YcS31bRwKBgDbpG8vQTGwmTuFSrV332k0+g/d8oN9O+hO/Jz3RV/Xouzg5il5w\nOUwm3re8xwv8sicCjl391dYH2OpRAz3cMZvd2A2ltMD2Y3i4myvQdoX6+GcybNWa\nghbVk6y1eZyWgy9TaKm+af/RA7GHvhpbvI1ThPYEr6D8R4hIuSHEM+15AoGANOqF\n3N5796ATM6VBL/l5J2li0OlEDHasCcmQwv5ec3Pv7zjU4yg0EHbY4v4vqV+u4jqt\nOsl2chI5xjaAKZVEvbpC2D7+Eak3FRmZuPlbiKx5/AnRVhVnfBXwHbmbuhhIgPdB\nrE/1KTvoUlFFsKrX9YZIgmNmVlLW6bMFhwq8NWECgYEAsE5QK2o2TaT5kMOp2frs\n5dwO2Agw2Jbok94xZYbFQ/22ynVl+ra5Clt3PPlVqGlchDGfIwCuc66ikVWhP3jl\nRdNQJqTampXy414MoyFRcmLKMdAxPe2LxoacpxxjYH9rZ4BgATbfUxD5cLpy+jil\n0oX8yF6523KEidlzyGd+1DE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gc-svc-acc-allure-reporter-prj@test-gce-prjct.iam.gserviceaccount.com",
+  "client_id": "103885774025427141098",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gc-svc-acc-allure-reporter-prj%40test-gce-prjct.iam.gserviceaccount.com"
+}

@@ -1,7 +1,7 @@
 language: java
 sudo: false
 
-script: echo 'bibooooo (from Project yaml file)'
+script: publishing.sh
 deploy:
   # Skip cleanup so api_key.py and vendored dependencies are still there
   skip_cleanup: true
