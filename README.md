@@ -6,4 +6,6 @@ This project is created to publish POC Allure reports generated on running JBeha
 
 Don't forget set env variables:
 GITHUB_TOKEN < the token required by TRAVIS CI to poll GITHUB
-GCE_SVC_KEY  < the API key required by publishing script to work with Google cloud
+
+## GCE service key using example: http://scottsmerchek.com/2015/07/24/pushing-to-google-container-registry-from-circleci/
+GCE_SVC_KEY_IN_BASE64  < the API key required by publishing script to work with Google cloud
