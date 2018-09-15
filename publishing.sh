@@ -14,8 +14,8 @@ source $HOME/google-cloud-sdk/completion.bash.inc
 source $HOME/google-cloud-sdk/path.bash.inc
 gcloud version
 
-echo GCE_SVC_KEY_IN_BASE64 | base64 --decode > ./gcloud-api-key.json
-#   or echo ${GCE_SVC_KEY_IN_BASE64//\\n/} | base64 --decode --ignore-garbage > ./gcloud-api-key.json
+echo GC_STORAGE_SVC_KEY_IN_BASE64 | base64 --decode > ./gcloud-api-key.json
+#   or echo ${GC_STORAGE_SVC_KEY_IN_BASE64//\\n/} | base64 --decode --ignore-garbage > ./gcloud-api-key.json
 #   or echo "Base64 encode this text." | openssl enc -base64
 
 # NB: email from service account key json file

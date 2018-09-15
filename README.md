@@ -8,4 +8,4 @@ Don't forget set env variables:
 GITHUB_TOKEN < the token required by TRAVIS CI to poll GITHUB
 
 ## GCE service key using example: http://scottsmerchek.com/2015/07/24/pushing-to-google-container-registry-from-circleci/
-GCE_SVC_KEY_IN_BASE64  < the API key required by publishing script to work with Google cloud
+GC_STORAGE_SVC_KEY_IN_BASE64  < the API key required by publishing script to work with Google cloud
