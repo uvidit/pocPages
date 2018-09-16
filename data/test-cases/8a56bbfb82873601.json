@@ -1,0 +1,152 @@
+{
+  "uid" : "8a56bbfb82873601",
+  "name" : "with not implemented step after failing\niven a Calculator",
+  "fullName" : "differentTestStepType.story: with not implemented step after failing\niven a Calculator",
+  "historyId" : "5AB57EF70CD120E0172AA1B7BF269DE5",
+  "time" : {
+    "start" : 1537105456176,
+    "stop" : 1537105456226,
+    "duration" : 50
+  },
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "status" : "failed",
+  "statusMessage" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+  "statusTrace" : "org.jbehave.core.failures.UUIDExceptionWrapper: Then test suddenly failed...\n\tat org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:583)\n\tat org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:533)\n\tat org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:513)\n\tat org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:477)\n\tat org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:308)\n\tat org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:220)\n\tat org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:181)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:235)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:207)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:956)\n\tat jbehave.steps.BasicSteps.testSuddenlyFailed(BasicSteps.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:569)\n\t... 12 more\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+    "statusTrace" : "org.jbehave.core.failures.UUIDExceptionWrapper: Then test suddenly failed...\n\tat org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:583)\n\tat org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:533)\n\tat org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:513)\n\tat org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:477)\n\tat org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:308)\n\tat org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:220)\n\tat org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:181)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:235)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:207)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:956)\n\tat jbehave.steps.BasicSteps.testSuddenlyFailed(BasicSteps.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:569)\n\t... 12 more\n",
+    "steps" : [ {
+      "name" : "!-- MIDDLE step comment",
+      "time" : {
+        "start" : 1537105456186,
+        "stop" : 1537105456186,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I increment 4 with 1",
+      "time" : {
+        "start" : 1537105456186,
+        "stop" : 1537105456191,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456191,
+        "stop" : 1537105456199,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "!-- LAST step comment",
+      "time" : {
+        "start" : 1537105456201,
+        "stop" : 1537105456201,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then test suddenly failed...",
+      "time" : {
+        "start" : 1537105456201,
+        "stop" : 1537105456204,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PENDING (not implemented): When i have NOT IMPLEMENTED step w/o",
+      "time" : {
+        "start" : 1537105456206,
+        "stop" : 1537105456206,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "differentTestStepType.story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a56bbfb82873601.json",
+  "parameterValues" : [ "someParamValue" ]
+}

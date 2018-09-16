@@ -1,0 +1,107 @@
+{
+  "uid" : "a98d4f39bdc94255",
+  "name" : "Clear stack",
+  "fullName" : "stack_story.story: Clear stack",
+  "historyId" : "13CAB64F4B3EE2C3C4EF9E017880BA03",
+  "time" : {
+    "start" : 1537105457021,
+    "stop" : 1537105457047,
+    "duration" : 26
+  },
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "status" : "broken",
+  "statusMessage" : "Unknown test status.",
+  "statusTrace" : "No trace yet.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Unknown test status.",
+    "statusTrace" : "No trace yet.",
+    "steps" : [ {
+      "name" : "PENDING (not implemented): Given a stack with elements",
+      "time" : {
+        "start" : 1537105457034,
+        "stop" : 1537105457034,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PENDING (not implemented): When I clear stack",
+      "time" : {
+        "start" : 1537105457035,
+        "stop" : 1537105457035,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PENDING (not implemented): Then the stack should have 0 elements",
+      "time" : {
+        "start" : 1537105457037,
+        "stop" : 1537105457037,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "stack_story.story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a98d4f39bdc94255.json",
+  "parameterValues" : [ "someParamValue" ]
+}

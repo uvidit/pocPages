@@ -1,0 +1,26 @@
+{
+  "total" : 20,
+  "items" : [ {
+    "uid" : "4e74145da9d7f6b9df58a91e4f052d51",
+    "name" : "EverBestEpic",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "31647038156ec1612a69d1cda438a139",
+    "name" : "EVERBESTEPIC",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

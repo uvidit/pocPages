@@ -1,0 +1,107 @@
+{
+  "uid" : "5550a850d6eb92fd",
+  "name" : "'SEVERITY' lable",
+  "fullName" : "severityLabelSceario.story: 'SEVERITY' lable",
+  "historyId" : "DE71A5A5E7D3CE5879F47A2D077A07DE",
+  "time" : {
+    "start" : 1537105456354,
+    "stop" : 1537105456382,
+    "duration" : 28
+  },
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "status" : "passed",
+  "statusMessage" : "Test passed.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Test passed.",
+    "steps" : [ {
+      "name" : "Given a Calculator",
+      "time" : {
+        "start" : 1537105456361,
+        "stop" : 1537105456364,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I increment 4 with 1",
+      "time" : {
+        "start" : 1537105456364,
+        "stop" : 1537105456369,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456369,
+        "stop" : 1537105456379,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "severityLabelSceario.story"
+  }, {
+    "name" : "tag",
+    "value" : "SEVERITY='TRIVIAL'"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "SEVERITY='TRIVIAL'" ]
+  },
+  "source" : "5550a850d6eb92fd.json",
+  "parameterValues" : [ "someParamValue" ]
+}

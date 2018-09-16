@@ -1,0 +1,119 @@
+{
+  "uid" : "d2c5eb2620d558fb",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "fullName" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "historyId" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "time" : {
+    "start" : 1537105456584,
+    "stop" : 1537105456606,
+    "duration" : 22
+  },
+  "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
+  "status" : "passed",
+  "statusMessage" : "Test passed.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Test passed.",
+    "steps" : [ {
+      "name" : "Given a Calculator",
+      "time" : {
+        "start" : 1537105456585,
+        "stop" : 1537105456589,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I increment 4 with 1",
+      "time" : {
+        "start" : 1537105456589,
+        "stop" : 1537105456597,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456597,
+        "stop" : 1537105456604,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "simpleTestMock.story"
+  }, {
+    "name" : "tag",
+    "value" : "tc1Label_withNoVal=''"
+  }, {
+    "name" : "tag",
+    "value" : "tc1Label_withVal='tc1LabelVal'"
+  }, {
+    "name" : "tc1Label_withVal",
+    "value" : "tc1LabelVal"
+  }, {
+    "name" : "tc1Label_withNoVal",
+    "value" : ""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exNumber",
+    "value" : "3"
+  }, {
+    "name" : "exVal",
+    "value" : "val3"
+  }, {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tc1Label_withNoVal=''", "tc1Label_withVal='tc1LabelVal'" ]
+  },
+  "source" : "d2c5eb2620d558fb.json",
+  "parameterValues" : [ "3", "val3", "someParamValue" ]
+}

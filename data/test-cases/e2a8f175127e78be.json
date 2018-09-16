@@ -1,0 +1,225 @@
+{
+  "uid" : "e2a8f175127e78be",
+  "name" : "various step types",
+  "fullName" : "differentTestStepType.story: various step types",
+  "historyId" : "D0A2D6132E39351D46416CBC3CC81F48",
+  "time" : {
+    "start" : 1537105456107,
+    "stop" : 1537105456169,
+    "duration" : 62
+  },
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "status" : "broken",
+  "statusMessage" : "Test passed.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Test passed.",
+    "steps" : [ {
+      "name" : "!-- comment after TITLE\nMeta:",
+      "time" : {
+        "start" : 1537105456120,
+        "stop" : 1537105456120,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "!-- comment after META",
+      "time" : {
+        "start" : 1537105456121,
+        "stop" : 1537105456121,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given a Calculator",
+      "time" : {
+        "start" : 1537105456122,
+        "stop" : 1537105456126,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "!-- MIDDLE#1  step comment",
+      "time" : {
+        "start" : 1537105456130,
+        "stop" : 1537105456130,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PENDING (not implemented): When i have NOT IMPLEMENTED step w/o",
+      "time" : {
+        "start" : 1537105456136,
+        "stop" : 1537105456138,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "NOT PERFORMED: When I increment 4 with 1",
+      "time" : {
+        "start" : 1537105456141,
+        "stop" : 1537105456147,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "NOT PERFORMED: Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456148,
+        "stop" : 1537105456148,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "!-- MIDDLE#2 step comment",
+      "time" : {
+        "start" : 1537105456151,
+        "stop" : 1537105456151,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "NOT PERFORMED: Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456152,
+        "stop" : 1537105456152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "NOT PERFORMED: Then test suddenly failed...",
+      "time" : {
+        "start" : 1537105456154,
+        "stop" : 1537105456154,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "!-- LAST step comment",
+      "time" : {
+        "start" : 1537105456155,
+        "stop" : 1537105456155,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "differentTestStepType.story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e2a8f175127e78be.json",
+  "parameterValues" : [ "someParamValue" ]
+}

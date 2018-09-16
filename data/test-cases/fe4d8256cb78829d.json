@@ -1,0 +1,117 @@
+{
+  "uid" : "fe4d8256cb78829d",
+  "name" : "scenario description (mock2) (EXAMPLE #1)",
+  "fullName" : "simpleTestMock2.story: scenario description (mock2) (EXAMPLE #1)",
+  "historyId" : "simpleTestMock2.story: scenario description (mock2) (EXAMPLE #1)",
+  "time" : {
+    "start" : 1537105456727,
+    "stop" : 1537105456762,
+    "duration" : 35
+  },
+  "descriptionHtml" : "As a user<br>I want to perform an action<br>So that I can achieve a business goal",
+  "status" : "passed",
+  "statusMessage" : "Test passed.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Test passed.",
+    "steps" : [ {
+      "name" : "Given a Calculator",
+      "time" : {
+        "start" : 1537105456740,
+        "stop" : 1537105456752,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I increment 4 with 1",
+      "time" : {
+        "start" : 1537105456752,
+        "stop" : 1537105456754,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456755,
+        "stop" : 1537105456757,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "simpleTestMock2.story"
+  }, {
+    "name" : "tag",
+    "value" : "owner='LazyOwner'"
+  }, {
+    "name" : "tag",
+    "value" : "severity='trivial'"
+  }, {
+    "name" : "owner",
+    "value" : "LazyOwner"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exNumber",
+    "value" : "1"
+  }, {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "owner" : "LazyOwner",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "owner='LazyOwner'", "severity='trivial'" ]
+  },
+  "source" : "fe4d8256cb78829d.json",
+  "parameterValues" : [ "1", "someParamValue" ]
+}

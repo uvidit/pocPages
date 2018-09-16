@@ -1,0 +1,211 @@
+[ {
+  "uid" : "c08d491c0e52aff0",
+  "name" : "ignored and commented JBehave strings should be as ignored steps",
+  "time" : {
+    "start" : 1537105456006,
+    "stop" : 1537105456058,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5550a850d6eb92fd",
+  "name" : "'SEVERITY' lable",
+  "time" : {
+    "start" : 1537105456354,
+    "stop" : 1537105456382,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "a98d4f39bdc94255",
+  "name" : "Clear stack",
+  "time" : {
+    "start" : 1537105457021,
+    "stop" : 1537105457047,
+    "duration" : 26
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f040466cdbda1d",
+  "name" : "SKIPED scenario description",
+  "time" : {
+    "start" : 1537105456811,
+    "stop" : 1537105456812,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "fe4d8256cb78829d",
+  "name" : "scenario description (mock2) (EXAMPLE #1)",
+  "time" : {
+    "start" : 1537105456727,
+    "stop" : 1537105456762,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "b10838858436905e",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
+  "time" : {
+    "start" : 1537105456505,
+    "stop" : 1537105456547,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccbbe320953aa954",
+  "name" : "'sEVERITY' lable",
+  "time" : {
+    "start" : 1537105456419,
+    "stop" : 1537105456438,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "486a1a28bf9b2b0c",
+  "name" : "Add elements to empty stack",
+  "time" : {
+    "start" : 1537105456994,
+    "stop" : 1537105457019,
+    "duration" : 25
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cbf6706cf12e3cae",
+  "name" : "'all' types of lables scenario",
+  "time" : {
+    "start" : 1537105456824,
+    "stop" : 1537105456854,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "7b9f189c51afa1b",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #2)",
+  "time" : {
+    "start" : 1537105456551,
+    "stop" : 1537105456577,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88a919ae298b749f",
+  "name" : "2. scenario w/o EXAMPLES instances",
+  "time" : {
+    "start" : 1537105456611,
+    "stop" : 1537105456636,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8126ed6e798dc151",
+  "name" : "'Severity' lable",
+  "time" : {
+    "start" : 1537105456385,
+    "stop" : 1537105456414,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1a9a1cbe8d9d1773",
+  "name" : "Always failed TEST",
+  "time" : {
+    "start" : 1537105455498,
+    "stop" : 1537105455646,
+    "duration" : 148
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a56bbfb82873601",
+  "name" : "with not implemented step after failing\niven a Calculator",
+  "time" : {
+    "start" : 1537105456176,
+    "stop" : 1537105456226,
+    "duration" : 50
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c632b8f12ba11f96",
+  "name" : "comments in varios places",
+  "time" : {
+    "start" : 1537105456063,
+    "stop" : 1537105456101,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2a8f175127e78be",
+  "name" : "various step types",
+  "time" : {
+    "start" : 1537105456107,
+    "stop" : 1537105456169,
+    "duration" : 62
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f05a3caace475f54",
+  "name" : "'severity' lable",
+  "time" : {
+    "start" : 1537105456309,
+    "stop" : 1537105456347,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "d2c5eb2620d558fb",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "time" : {
+    "start" : 1537105456584,
+    "stop" : 1537105456606,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58cca222600cf0d3",
+  "name" : "'All' types of lables scenario",
+  "time" : {
+    "start" : 1537105456903,
+    "stop" : 1537105456936,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "724551e684bea3db",
+  "name" : "scenario description (mock2) (EXAMPLE #2)",
+  "time" : {
+    "start" : 1537105456767,
+    "stop" : 1537105456800,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "6c5170091a3c0ebe",
+  "name" : "'ALL' types of lables scenario",
+  "time" : {
+    "start" : 1537105456865,
+    "stop" : 1537105456898,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+} ]

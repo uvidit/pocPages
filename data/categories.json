@@ -1,0 +1,85 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+      "children" : [ {
+        "name" : "Always failed TEST",
+        "uid" : "1a9a1cbe8d9d1773",
+        "parentUid" : "99d5bf3bb37b2ced924bc5c6d8eba1c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537105455498,
+          "stop" : 1537105455646,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "parameters" : [ "someParamValue" ]
+      }, {
+        "name" : "with not implemented step after failing\niven a Calculator",
+        "uid" : "8a56bbfb82873601",
+        "parentUid" : "99d5bf3bb37b2ced924bc5c6d8eba1c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537105456176,
+          "stop" : 1537105456226,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "parameters" : [ "someParamValue" ]
+      } ],
+      "uid" : "99d5bf3bb37b2ced924bc5c6d8eba1c8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Test passed.",
+      "children" : [ {
+        "name" : "various step types",
+        "uid" : "e2a8f175127e78be",
+        "parentUid" : "e1a8aca1dc1666a8ce294cfbaa8bbbb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537105456107,
+          "stop" : 1537105456169,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "parameters" : [ "someParamValue" ]
+      } ],
+      "uid" : "e1a8aca1dc1666a8ce294cfbaa8bbbb0"
+    }, {
+      "name" : "Unknown test status.",
+      "children" : [ {
+        "name" : "Add elements to empty stack",
+        "uid" : "486a1a28bf9b2b0c",
+        "parentUid" : "673dcc3156566d413ace62f11817f31b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537105456994,
+          "stop" : 1537105457019,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "parameters" : [ "someParamValue" ]
+      }, {
+        "name" : "Clear stack",
+        "uid" : "a98d4f39bdc94255",
+        "parentUid" : "673dcc3156566d413ace62f11817f31b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537105457021,
+          "stop" : 1537105457047,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ "someParamValue" ]
+      } ],
+      "uid" : "673dcc3156566d413ace62f11817f31b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "486a1a28bf9b2b0c",
+  "name" : "Add elements to empty stack",
+  "fullName" : "stack_story.story: Add elements to empty stack",
+  "historyId" : "9FA3C6920A70CFD467CCFAD88537AAE8",
+  "time" : {
+    "start" : 1537105456994,
+    "stop" : 1537105457019,
+    "duration" : 25
+  },
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "status" : "broken",
+  "statusMessage" : "Unknown test status.",
+  "statusTrace" : "No trace yet.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Unknown test status.",
+    "statusTrace" : "No trace yet.",
+    "steps" : [ {
+      "name" : "PENDING (not implemented): Given an empty stack",
+      "time" : {
+        "start" : 1537105457004,
+        "stop" : 1537105457004,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PENDING (not implemented): When I add 4 elements",
+      "time" : {
+        "start" : 1537105457005,
+        "stop" : 1537105457005,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "PENDING (not implemented): Then the stack should have 2 elements",
+      "time" : {
+        "start" : 1537105457010,
+        "stop" : 1537105457010,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "stack_story.story"
+  }, {
+    "name" : "tag",
+    "value" : "owner='GreedyOwner'"
+  }, {
+    "name" : "owner",
+    "value" : "GreedyOwner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "GreedyOwner",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "owner='GreedyOwner'" ]
+  },
+  "source" : "486a1a28bf9b2b0c.json",
+  "parameterValues" : [ "someParamValue" ]
+}

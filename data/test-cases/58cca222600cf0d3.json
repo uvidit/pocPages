@@ -1,0 +1,179 @@
+{
+  "uid" : "58cca222600cf0d3",
+  "name" : "'All' types of lables scenario",
+  "fullName" : "simpleTestMock2.story: 'All' types of lables scenario",
+  "historyId" : "6A3C0DCE94841388B91F6E59698164CA",
+  "time" : {
+    "start" : 1537105456903,
+    "stop" : 1537105456936,
+    "duration" : 33
+  },
+  "descriptionHtml" : "As a user<br>I want to perform an action<br>So that I can achieve a business goal",
+  "status" : "passed",
+  "statusMessage" : "Test passed.",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Test passed.",
+    "steps" : [ {
+      "name" : "Given a Calculator",
+      "time" : {
+        "start" : 1537105456920,
+        "stop" : 1537105456922,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I increment 4 with 1",
+      "time" : {
+        "start" : 1537105456922,
+        "stop" : 1537105456927,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Calculator returns 5",
+      "time" : {
+        "start" : 1537105456927,
+        "stop" : 1537105456934,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "gcedeploy"
+  }, {
+    "name" : "thread",
+    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+  }, {
+    "name" : "suite",
+    "value" : "simpleTestMock2.story"
+  }, {
+    "name" : "tag",
+    "value" : "Epic='EverBestEpic'"
+  }, {
+    "name" : "tag",
+    "value" : "Feature='Incredible Feature'"
+  }, {
+    "name" : "tag",
+    "value" : "Issue='postNewIssue|https://github.com/allure-framework/allure2/issues/new'"
+  }, {
+    "name" : "tag",
+    "value" : "Link='AllureBlog|https://qameta.io'"
+  }, {
+    "name" : "tag",
+    "value" : "Owner='GreedyOwner'"
+  }, {
+    "name" : "tag",
+    "value" : "Package='JBehaveToAllurePack'"
+  }, {
+    "name" : "tag",
+    "value" : "Severity='Trivial'"
+  }, {
+    "name" : "tag",
+    "value" : "Story='TinyStoryAbout'"
+  }, {
+    "name" : "tag",
+    "value" : "TestClass='SomeUnknownTestClassName'"
+  }, {
+    "name" : "tag",
+    "value" : "TestMethod='SomeUknownToTestMethod'"
+  }, {
+    "name" : "tag",
+    "value" : "Tms='allureBinTray|https://bintray.com/search/packages/tag?query=allure#'"
+  }, {
+    "name" : "owner",
+    "value" : "GreedyOwner"
+  }, {
+    "name" : "Issue",
+    "value" : "postNewIssue|https://github.com/allure-framework/allure2/issues/new"
+  }, {
+    "name" : "epic",
+    "value" : "EverBestEpic"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "testClass",
+    "value" : "SomeUnknownTestClassName"
+  }, {
+    "name" : "package",
+    "value" : "JBehaveToAllurePack"
+  }, {
+    "name" : "Tms",
+    "value" : "allureBinTray|https://bintray.com/search/packages/tag?query=allure#"
+  }, {
+    "name" : "feature",
+    "value" : "Incredible Feature"
+  }, {
+    "name" : "story",
+    "value" : "TinyStoryAbout"
+  }, {
+    "name" : "Link",
+    "value" : "AllureBlog|https://qameta.io"
+  }, {
+    "name" : "testMethod",
+    "value" : "SomeUknownToTestMethod"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "someParamName",
+    "value" : "someParamValue"
+  } ],
+  "links" : [ {
+    "name" : "postNewIssue",
+    "url" : "https://github.com/allure-framework/allure2/issues/new",
+    "type" : "issue"
+  }, {
+    "name" : "allureBinTray",
+    "url" : "https://bintray.com/search/packages/tag?query=allure#",
+    "type" : "tms"
+  }, {
+    "name" : "AllureBlog",
+    "url" : "https://qameta.io"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "owner" : "GreedyOwner",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Epic='EverBestEpic'", "Feature='Incredible Feature'", "Issue='postNewIssue|https://github.com/allure-framework/allure2/issues/new'", "Package='JBehaveToAllurePack'", "Tms='allureBinTray|https://bintray.com/search/packages/tag?query=allure#'", "Severity='Trivial'", "Story='TinyStoryAbout'", "TestClass='SomeUnknownTestClassName'", "Owner='GreedyOwner'", "TestMethod='SomeUknownToTestMethod'", "Link='AllureBlog|https://qameta.io'" ]
+  },
+  "source" : "58cca222600cf0d3.json",
+  "parameterValues" : [ "someParamValue" ]
+}

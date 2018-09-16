@@ -1,0 +1,422 @@
+{
+  "B7FB9C4438F56D372833484E45E12D05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f05a3caace475f54",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456309,
+        "stop" : 1537105456347,
+        "duration" : 38
+      }
+    } ]
+  },
+  "9C9579111475B61B5BF1F5942BDADFFD" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccbbe320953aa954",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456419,
+        "stop" : 1537105456438,
+        "duration" : 19
+      }
+    } ]
+  },
+  "8278ADF482EFC1B6CA905EFA28353775" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c632b8f12ba11f96",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456063,
+        "stop" : 1537105456101,
+        "duration" : 38
+      }
+    } ]
+  },
+  "9BDD8FA87052114789474A1B1DBFBFE7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbf6706cf12e3cae",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456824,
+        "stop" : 1537105456854,
+        "duration" : 30
+      }
+    } ]
+  },
+  "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #2)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b9f189c51afa1b",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456551,
+        "stop" : 1537105456577,
+        "duration" : 26
+      }
+    } ]
+  },
+  "DB697AA00B2467B69468C2C1605EECD1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f040466cdbda1d",
+      "status" : "skipped",
+      "statusDetails" : "Test was ignored by jBehave engine. Root cause is existing '@skip' metatag or story-filter excluding parameter.",
+      "time" : {
+        "start" : 1537105456811,
+        "stop" : 1537105456812,
+        "duration" : 1
+      }
+    } ]
+  },
+  "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2c5eb2620d558fb",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456584,
+        "stop" : 1537105456606,
+        "duration" : 22
+      }
+    } ]
+  },
+  "D0A2D6132E39351D46416CBC3CC81F48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2a8f175127e78be",
+      "status" : "broken",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456107,
+        "stop" : 1537105456169,
+        "duration" : 62
+      }
+    } ]
+  },
+  "simpleTestMock2.story: scenario description (mock2) (EXAMPLE #1)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe4d8256cb78829d",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456727,
+        "stop" : 1537105456762,
+        "duration" : 35
+      }
+    } ]
+  },
+  "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b10838858436905e",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456505,
+        "stop" : 1537105456547,
+        "duration" : 42
+      }
+    } ]
+  },
+  "simpleTestMock2.story: scenario description (mock2) (EXAMPLE #2)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "724551e684bea3db",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456767,
+        "stop" : 1537105456800,
+        "duration" : 33
+      }
+    } ]
+  },
+  "13CAB64F4B3EE2C3C4EF9E017880BA03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a98d4f39bdc94255",
+      "status" : "broken",
+      "statusDetails" : "Unknown test status.",
+      "time" : {
+        "start" : 1537105457021,
+        "stop" : 1537105457047,
+        "duration" : 26
+      }
+    } ]
+  },
+  "9FA3C6920A70CFD467CCFAD88537AAE8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "486a1a28bf9b2b0c",
+      "status" : "broken",
+      "statusDetails" : "Unknown test status.",
+      "time" : {
+        "start" : 1537105456994,
+        "stop" : 1537105457019,
+        "duration" : 25
+      }
+    } ]
+  },
+  "5FAB4DDF88BAB93524FDCB51B74B052C" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c08d491c0e52aff0",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456006,
+        "stop" : 1537105456058,
+        "duration" : 52
+      }
+    } ]
+  },
+  "C521758FB7E8B1BB66FCA05E198FE83C" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88a919ae298b749f",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456611,
+        "stop" : 1537105456636,
+        "duration" : 25
+      }
+    } ]
+  },
+  "DE71A5A5E7D3CE5879F47A2D077A07DE" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5550a850d6eb92fd",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456354,
+        "stop" : 1537105456382,
+        "duration" : 28
+      }
+    } ]
+  },
+  "5AB57EF70CD120E0172AA1B7BF269DE5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a56bbfb82873601",
+      "status" : "failed",
+      "statusDetails" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+      "time" : {
+        "start" : 1537105456176,
+        "stop" : 1537105456226,
+        "duration" : 50
+      }
+    } ]
+  },
+  "FCA2127C08C80B7AE9887859FCE0C470" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a9a1cbe8d9d1773",
+      "status" : "failed",
+      "statusDetails" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+      "time" : {
+        "start" : 1537105455498,
+        "stop" : 1537105455646,
+        "duration" : 148
+      }
+    } ]
+  },
+  "C3157DFB372D88FCB1F97F684C2C6AAB" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8126ed6e798dc151",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456385,
+        "stop" : 1537105456414,
+        "duration" : 29
+      }
+    } ]
+  },
+  "6A3C0DCE94841388B91F6E59698164CA" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58cca222600cf0d3",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456903,
+        "stop" : 1537105456936,
+        "duration" : 33
+      }
+    } ]
+  },
+  "E4B1105D796ACF93EC357B1223A58BF0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c5170091a3c0ebe",
+      "status" : "passed",
+      "statusDetails" : "Test passed.",
+      "time" : {
+        "start" : 1537105456865,
+        "stop" : 1537105456898,
+        "duration" : 33
+      }
+    } ]
+  }
+}
