@@ -1,12 +1,12 @@
 {
-  "uid" : "88a919ae298b749f",
-  "name" : "2. scenario w/o EXAMPLES instances",
-  "fullName" : "simpleTestMock.story: 2. scenario w/o EXAMPLES instances",
-  "historyId" : "C521758FB7E8B1BB66FCA05E198FE83C",
+  "uid" : "1c208086ce1a5aa0",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "fullName" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "historyId" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)",
   "time" : {
-    "start" : 1537105456611,
-    "stop" : 1537105456636,
-    "duration" : 25
+    "start" : 1537115480663,
+    "stop" : 1537115480686,
+    "duration" : 23
   },
   "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456617,
-        "stop" : 1537105456623,
-        "duration" : 6
+        "start" : 1537115480668,
+        "stop" : 1537115480679,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,8 +34,8 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456623,
-        "stop" : 1537105456626,
+        "start" : 1537115480679,
+        "stop" : 1537115480682,
         "duration" : 3
       },
       "status" : "passed",
@@ -49,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456627,
-        "stop" : 1537105456634,
-        "duration" : 7
+        "start" : 1537115480683,
+        "stop" : 1537115480686,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,27 +75,33 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "simpleTestMock.story"
   }, {
     "name" : "tag",
-    "value" : "tc2Label_withNoVal=''"
+    "value" : "tc1Label_withNoVal=''"
   }, {
     "name" : "tag",
-    "value" : "tc2Label_withVal='storyLabelVal'"
+    "value" : "tc1Label_withVal='tc1LabelVal'"
   }, {
-    "name" : "tc2Label_withNoVal",
+    "name" : "tc1Label_withVal",
+    "value" : "tc1LabelVal"
+  }, {
+    "name" : "tc1Label_withNoVal",
     "value" : ""
-  }, {
-    "name" : "tc2Label_withVal",
-    "value" : "storyLabelVal"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
+    "name" : "exNumber",
+    "value" : "3"
+  }, {
+    "name" : "exVal",
+    "value" : "val3"
+  }, {
     "name" : "someParamName",
     "value" : "someParamValue"
   } ],
@@ -106,8 +112,28 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "tc2Label_withNoVal=''", "tc2Label_withVal='storyLabelVal'" ]
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d2c5eb2620d558fb",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456584,
+          "stop" : 1537105456606,
+          "duration" : 22
+        }
+      } ]
+    },
+    "tags" : [ "tc1Label_withNoVal=''", "tc1Label_withVal='tc1LabelVal'" ]
   },
-  "source" : "88a919ae298b749f.json",
-  "parameterValues" : [ "someParamValue" ]
+  "source" : "1c208086ce1a5aa0.json",
+  "parameterValues" : [ "3", "val3", "someParamValue" ]
 }

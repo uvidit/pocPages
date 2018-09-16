@@ -1,12 +1,12 @@
 {
-  "uid" : "1a9a1cbe8d9d1773",
+  "uid" : "39ee1ab4eb5950c",
   "name" : "Always failed TEST",
   "fullName" : "alwaysFailedTest.story: Always failed TEST",
   "historyId" : "FCA2127C08C80B7AE9887859FCE0C470",
   "time" : {
-    "start" : 1537105455498,
-    "stop" : 1537105455646,
-    "duration" : 148
+    "start" : 1537115479558,
+    "stop" : 1537115479723,
+    "duration" : 165
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "failed",
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105455536,
-        "stop" : 1537105455573,
-        "duration" : 37
+        "start" : 1537115479602,
+        "stop" : 1537115479645,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,9 +36,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105455579,
-        "stop" : 1537105455589,
-        "duration" : 10
+        "start" : 1537115479659,
+        "stop" : 1537115479666,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "Then test suddenly failed...",
       "time" : {
-        "start" : 1537105455589,
-        "stop" : 1537105455607,
-        "duration" : 18
+        "start" : 1537115479667,
+        "stop" : 1537115479693,
+        "duration" : 26
       },
       "status" : "failed",
       "steps" : [ ],
@@ -77,7 +77,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "alwaysFailedTest.story"
@@ -100,8 +100,28 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1a9a1cbe8d9d1773",
+        "status" : "failed",
+        "statusDetails" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+        "time" : {
+          "start" : 1537105455498,
+          "stop" : 1537105455646,
+          "duration" : 148
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "1a9a1cbe8d9d1773.json",
+  "source" : "39ee1ab4eb5950c.json",
   "parameterValues" : [ "someParamValue" ]
 }

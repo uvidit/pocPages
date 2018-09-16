@@ -1,12 +1,12 @@
 {
-  "uid" : "d2c5eb2620d558fb",
-  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
-  "fullName" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)",
-  "historyId" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "uid" : "ceec866a7a6e1ab7",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
+  "fullName" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)",
+  "historyId" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)",
   "time" : {
-    "start" : 1537105456584,
-    "stop" : 1537105456606,
-    "duration" : 22
+    "start" : 1537115480592,
+    "stop" : 1537115480632,
+    "duration" : 40
   },
   "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456585,
-        "stop" : 1537105456589,
-        "duration" : 4
+        "start" : 1537115480613,
+        "stop" : 1537115480620,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456589,
-        "stop" : 1537105456597,
-        "duration" : 8
+        "start" : 1537115480620,
+        "stop" : 1537115480624,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,8 +49,8 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456597,
-        "stop" : 1537105456604,
+        "start" : 1537115480624,
+        "stop" : 1537115480631,
         "duration" : 7
       },
       "status" : "passed",
@@ -75,7 +75,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "simpleTestMock.story"
@@ -97,10 +97,10 @@
   } ],
   "parameters" : [ {
     "name" : "exNumber",
-    "value" : "3"
+    "value" : "1"
   }, {
     "name" : "exVal",
-    "value" : "val3"
+    "value" : "val1"
   }, {
     "name" : "someParamName",
     "value" : "someParamValue"
@@ -112,8 +112,28 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b10838858436905e",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456505,
+          "stop" : 1537105456547,
+          "duration" : 42
+        }
+      } ]
+    },
     "tags" : [ "tc1Label_withNoVal=''", "tc1Label_withVal='tc1LabelVal'" ]
   },
-  "source" : "d2c5eb2620d558fb.json",
-  "parameterValues" : [ "3", "val3", "someParamValue" ]
+  "source" : "ceec866a7a6e1ab7.json",
+  "parameterValues" : [ "1", "val1", "someParamValue" ]
 }

@@ -1,211 +1,211 @@
 [ {
-  "uid" : "c08d491c0e52aff0",
-  "name" : "ignored and commented JBehave strings should be as ignored steps",
+  "uid" : "1f0a80073d217f7e",
+  "name" : "'ALL' types of lables scenario",
   "time" : {
-    "start" : 1537105456006,
-    "stop" : 1537105456058,
-    "duration" : 52
+    "start" : 1537115480940,
+    "stop" : 1537115480973,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "c8c9c9e061ff44da",
+  "name" : "scenario description (mock2) (EXAMPLE #1)",
+  "time" : {
+    "start" : 1537115480812,
+    "stop" : 1537115480853,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "bb057b6dd90997f9",
+  "name" : "Add elements to empty stack",
+  "time" : {
+    "start" : 1537115481061,
+    "stop" : 1537115481084,
+    "duration" : 23
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1c208086ce1a5aa0",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
+  "time" : {
+    "start" : 1537115480663,
+    "stop" : 1537115480686,
+    "duration" : 23
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5550a850d6eb92fd",
+  "uid" : "d1c3ead17f4aba61",
   "name" : "'SEVERITY' lable",
   "time" : {
-    "start" : 1537105456354,
-    "stop" : 1537105456382,
+    "start" : 1537115480432,
+    "stop" : 1537115480460,
     "duration" : 28
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "a98d4f39bdc94255",
-  "name" : "Clear stack",
+  "uid" : "944653ede8ebbb84",
+  "name" : "with not implemented step after failing\niven a Calculator",
   "time" : {
-    "start" : 1537105457021,
-    "stop" : 1537105457047,
-    "duration" : 26
+    "start" : 1537115480253,
+    "stop" : 1537115480299,
+    "duration" : 46
   },
-  "status" : "broken",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "5f040466cdbda1d",
+  "uid" : "39ee1ab4eb5950c",
+  "name" : "Always failed TEST",
+  "time" : {
+    "start" : 1537115479558,
+    "stop" : 1537115479723,
+    "duration" : 165
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa8d1d2bf1c623f1",
   "name" : "SKIPED scenario description",
   "time" : {
-    "start" : 1537105456811,
-    "stop" : 1537105456812,
+    "start" : 1537115480896,
+    "stop" : 1537115480897,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "blocker"
 }, {
-  "uid" : "fe4d8256cb78829d",
-  "name" : "scenario description (mock2) (EXAMPLE #1)",
+  "uid" : "51dc763555a8de0f",
+  "name" : "Clear stack",
   "time" : {
-    "start" : 1537105456727,
-    "stop" : 1537105456762,
-    "duration" : 35
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "b10838858436905e",
-  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
-  "time" : {
-    "start" : 1537105456505,
-    "stop" : 1537105456547,
-    "duration" : 42
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ccbbe320953aa954",
-  "name" : "'sEVERITY' lable",
-  "time" : {
-    "start" : 1537105456419,
-    "stop" : 1537105456438,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "486a1a28bf9b2b0c",
-  "name" : "Add elements to empty stack",
-  "time" : {
-    "start" : 1537105456994,
-    "stop" : 1537105457019,
-    "duration" : 25
+    "start" : 1537115481088,
+    "stop" : 1537115481112,
+    "duration" : 24
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "cbf6706cf12e3cae",
-  "name" : "'all' types of lables scenario",
+  "uid" : "a1d512ce8e0d9326",
+  "name" : "'sEVERITY' lable",
   "time" : {
-    "start" : 1537105456824,
-    "stop" : 1537105456854,
-    "duration" : 30
+    "start" : 1537115480492,
+    "stop" : 1537115480517,
+    "duration" : 25
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "7b9f189c51afa1b",
+  "uid" : "1bed30233aad3e54",
   "name" : "1. scenario with EXAMPLES instances (EXAMPLE #2)",
   "time" : {
-    "start" : 1537105456551,
-    "stop" : 1537105456577,
-    "duration" : 26
+    "start" : 1537115480634,
+    "stop" : 1537115480661,
+    "duration" : 27
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "88a919ae298b749f",
-  "name" : "2. scenario w/o EXAMPLES instances",
-  "time" : {
-    "start" : 1537105456611,
-    "stop" : 1537105456636,
-    "duration" : 25
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8126ed6e798dc151",
+  "uid" : "d907bf5e8fdff657",
   "name" : "'Severity' lable",
   "time" : {
-    "start" : 1537105456385,
-    "stop" : 1537105456414,
+    "start" : 1537115480462,
+    "stop" : 1537115480489,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "ce86bd86f7343b68",
+  "name" : "'All' types of lables scenario",
+  "time" : {
+    "start" : 1537115480978,
+    "stop" : 1537115481007,
     "duration" : 29
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "1a9a1cbe8d9d1773",
-  "name" : "Always failed TEST",
+  "uid" : "532afaa3f9988034",
+  "name" : "'all' types of lables scenario",
   "time" : {
-    "start" : 1537105455498,
-    "stop" : 1537105455646,
-    "duration" : 148
+    "start" : 1537115480906,
+    "stop" : 1537115480935,
+    "duration" : 29
   },
-  "status" : "failed",
-  "severity" : "normal"
+  "status" : "passed",
+  "severity" : "trivial"
 }, {
-  "uid" : "8a56bbfb82873601",
-  "name" : "with not implemented step after failing\niven a Calculator",
+  "uid" : "be3dc07c6f5726c2",
+  "name" : "scenario description (mock2) (EXAMPLE #2)",
   "time" : {
-    "start" : 1537105456176,
-    "stop" : 1537105456226,
-    "duration" : 50
+    "start" : 1537115480854,
+    "stop" : 1537115480888,
+    "duration" : 34
   },
-  "status" : "failed",
-  "severity" : "normal"
+  "status" : "passed",
+  "severity" : "trivial"
 }, {
-  "uid" : "c632b8f12ba11f96",
+  "uid" : "116d35aac2adfc44",
   "name" : "comments in varios places",
   "time" : {
-    "start" : 1537105456063,
-    "stop" : 1537105456101,
-    "duration" : 38
+    "start" : 1537115480147,
+    "stop" : 1537115480182,
+    "duration" : 35
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e2a8f175127e78be",
+  "uid" : "5d5811e1affb37d5",
+  "name" : "ignored and commented JBehave strings should be as ignored steps",
+  "time" : {
+    "start" : 1537115480101,
+    "stop" : 1537115480144,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44578e5a39dc5cd1",
   "name" : "various step types",
   "time" : {
-    "start" : 1537105456107,
-    "stop" : 1537105456169,
+    "start" : 1537115480186,
+    "stop" : 1537115480248,
     "duration" : 62
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "f05a3caace475f54",
-  "name" : "'severity' lable",
+  "uid" : "ceec866a7a6e1ab7",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
   "time" : {
-    "start" : 1537105456309,
-    "stop" : 1537105456347,
-    "duration" : 38
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "d2c5eb2620d558fb",
-  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
-  "time" : {
-    "start" : 1537105456584,
-    "stop" : 1537105456606,
-    "duration" : 22
+    "start" : 1537115480592,
+    "stop" : 1537115480632,
+    "duration" : 40
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "58cca222600cf0d3",
-  "name" : "'All' types of lables scenario",
+  "uid" : "a8ecf5c866316da0",
+  "name" : "'severity' lable",
   "time" : {
-    "start" : 1537105456903,
-    "stop" : 1537105456936,
-    "duration" : 33
+    "start" : 1537115480387,
+    "stop" : 1537115480424,
+    "duration" : 37
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "724551e684bea3db",
-  "name" : "scenario description (mock2) (EXAMPLE #2)",
+  "uid" : "bb161a0c03228328",
+  "name" : "2. scenario w/o EXAMPLES instances",
   "time" : {
-    "start" : 1537105456767,
-    "stop" : 1537105456800,
-    "duration" : 33
+    "start" : 1537115480690,
+    "stop" : 1537115480718,
+    "duration" : 28
   },
   "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "6c5170091a3c0ebe",
-  "name" : "'ALL' types of lables scenario",
-  "time" : {
-    "start" : 1537105456865,
-    "stop" : 1537105456898,
-    "duration" : 33
-  },
-  "status" : "passed",
-  "severity" : "trivial"
+  "severity" : "normal"
 } ]

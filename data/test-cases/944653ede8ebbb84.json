@@ -1,12 +1,12 @@
 {
-  "uid" : "8a56bbfb82873601",
+  "uid" : "944653ede8ebbb84",
   "name" : "with not implemented step after failing\niven a Calculator",
   "fullName" : "differentTestStepType.story: with not implemented step after failing\niven a Calculator",
   "historyId" : "5AB57EF70CD120E0172AA1B7BF269DE5",
   "time" : {
-    "start" : 1537105456176,
-    "stop" : 1537105456226,
-    "duration" : 50
+    "start" : 1537115480253,
+    "stop" : 1537115480299,
+    "duration" : 46
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "failed",
@@ -21,8 +21,8 @@
     "steps" : [ {
       "name" : "!-- MIDDLE step comment",
       "time" : {
-        "start" : 1537105456186,
-        "stop" : 1537105456186,
+        "start" : 1537115480260,
+        "stop" : 1537115480260,
         "duration" : 0
       },
       "status" : "skipped",
@@ -36,9 +36,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456186,
-        "stop" : 1537105456191,
-        "duration" : 5
+        "start" : 1537115480260,
+        "stop" : 1537115480267,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456191,
-        "stop" : 1537105456199,
-        "duration" : 8
+        "start" : 1537115480268,
+        "stop" : 1537115480272,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,8 +66,8 @@
     }, {
       "name" : "!-- LAST step comment",
       "time" : {
-        "start" : 1537105456201,
-        "stop" : 1537105456201,
+        "start" : 1537115480273,
+        "stop" : 1537115480273,
         "duration" : 0
       },
       "status" : "skipped",
@@ -81,8 +81,8 @@
     }, {
       "name" : "Then test suddenly failed...",
       "time" : {
-        "start" : 1537105456201,
-        "stop" : 1537105456204,
+        "start" : 1537115480273,
+        "stop" : 1537115480276,
         "duration" : 3
       },
       "status" : "failed",
@@ -96,9 +96,9 @@
     }, {
       "name" : "PENDING (not implemented): When i have NOT IMPLEMENTED step w/o",
       "time" : {
-        "start" : 1537105456206,
-        "stop" : 1537105456206,
-        "duration" : 0
+        "start" : 1537115480279,
+        "stop" : 1537115480280,
+        "duration" : 1
       },
       "status" : "broken",
       "steps" : [ ],
@@ -122,7 +122,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "differentTestStepType.story"
@@ -145,8 +145,28 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8a56bbfb82873601",
+        "status" : "failed",
+        "statusDetails" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+        "time" : {
+          "start" : 1537105456176,
+          "stop" : 1537105456226,
+          "duration" : 50
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "8a56bbfb82873601.json",
+  "source" : "944653ede8ebbb84.json",
   "parameterValues" : [ "someParamValue" ]
 }

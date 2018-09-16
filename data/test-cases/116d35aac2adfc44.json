@@ -1,12 +1,12 @@
 {
-  "uid" : "c632b8f12ba11f96",
+  "uid" : "116d35aac2adfc44",
   "name" : "comments in varios places",
   "fullName" : "differentTestStepType.story: comments in varios places",
   "historyId" : "8278ADF482EFC1B6CA905EFA28353775",
   "time" : {
-    "start" : 1537105456063,
-    "stop" : 1537105456101,
-    "duration" : 38
+    "start" : 1537115480147,
+    "stop" : 1537115480182,
+    "duration" : 35
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "!-- comment after TITLE\nMeta:",
       "time" : {
-        "start" : 1537105456070,
-        "stop" : 1537105456071,
+        "start" : 1537115480157,
+        "stop" : 1537115480158,
         "duration" : 1
       },
       "status" : "skipped",
@@ -34,8 +34,8 @@
     }, {
       "name" : "!-- comment after META",
       "time" : {
-        "start" : 1537105456075,
-        "stop" : 1537105456075,
+        "start" : 1537115480158,
+        "stop" : 1537115480158,
         "duration" : 0
       },
       "status" : "skipped",
@@ -49,8 +49,8 @@
     }, {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456075,
-        "stop" : 1537105456079,
+        "start" : 1537115480159,
+        "stop" : 1537115480163,
         "duration" : 4
       },
       "status" : "passed",
@@ -64,8 +64,8 @@
     }, {
       "name" : "!-- MIDDLE step comment",
       "time" : {
-        "start" : 1537105456081,
-        "stop" : 1537105456081,
+        "start" : 1537115480164,
+        "stop" : 1537115480164,
         "duration" : 0
       },
       "status" : "skipped",
@@ -79,9 +79,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456081,
-        "stop" : 1537105456087,
-        "duration" : 6
+        "start" : 1537115480164,
+        "stop" : 1537115480169,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -94,9 +94,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456087,
-        "stop" : 1537105456096,
-        "duration" : 9
+        "start" : 1537115480169,
+        "stop" : 1537115480174,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,8 +109,8 @@
     }, {
       "name" : "!-- LAST step comment",
       "time" : {
-        "start" : 1537105456098,
-        "stop" : 1537105456098,
+        "start" : 1537115480180,
+        "stop" : 1537115480180,
         "duration" : 0
       },
       "status" : "skipped",
@@ -135,7 +135,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "differentTestStepType.story"
@@ -154,8 +154,28 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c632b8f12ba11f96",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456063,
+          "stop" : 1537105456101,
+          "duration" : 38
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "c632b8f12ba11f96.json",
+  "source" : "116d35aac2adfc44.json",
   "parameterValues" : [ "someParamValue" ]
 }

@@ -6,25 +6,25 @@
       "name" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
       "children" : [ {
         "name" : "Always failed TEST",
-        "uid" : "1a9a1cbe8d9d1773",
+        "uid" : "39ee1ab4eb5950c",
         "parentUid" : "99d5bf3bb37b2ced924bc5c6d8eba1c8",
         "status" : "failed",
         "time" : {
-          "start" : 1537105455498,
-          "stop" : 1537105455646,
-          "duration" : 148
+          "start" : 1537115479558,
+          "stop" : 1537115479723,
+          "duration" : 165
         },
         "flaky" : false,
         "parameters" : [ "someParamValue" ]
       }, {
         "name" : "with not implemented step after failing\niven a Calculator",
-        "uid" : "8a56bbfb82873601",
+        "uid" : "944653ede8ebbb84",
         "parentUid" : "99d5bf3bb37b2ced924bc5c6d8eba1c8",
         "status" : "failed",
         "time" : {
-          "start" : 1537105456176,
-          "stop" : 1537105456226,
-          "duration" : 50
+          "start" : 1537115480253,
+          "stop" : 1537115480299,
+          "duration" : 46
         },
         "flaky" : false,
         "parameters" : [ "someParamValue" ]
@@ -38,12 +38,12 @@
       "name" : "Test passed.",
       "children" : [ {
         "name" : "various step types",
-        "uid" : "e2a8f175127e78be",
+        "uid" : "44578e5a39dc5cd1",
         "parentUid" : "e1a8aca1dc1666a8ce294cfbaa8bbbb0",
         "status" : "broken",
         "time" : {
-          "start" : 1537105456107,
-          "stop" : 1537105456169,
+          "start" : 1537115480186,
+          "stop" : 1537115480248,
           "duration" : 62
         },
         "flaky" : false,
@@ -54,25 +54,25 @@
       "name" : "Unknown test status.",
       "children" : [ {
         "name" : "Add elements to empty stack",
-        "uid" : "486a1a28bf9b2b0c",
+        "uid" : "bb057b6dd90997f9",
         "parentUid" : "673dcc3156566d413ace62f11817f31b",
         "status" : "broken",
         "time" : {
-          "start" : 1537105456994,
-          "stop" : 1537105457019,
-          "duration" : 25
+          "start" : 1537115481061,
+          "stop" : 1537115481084,
+          "duration" : 23
         },
         "flaky" : false,
         "parameters" : [ "someParamValue" ]
       }, {
         "name" : "Clear stack",
-        "uid" : "a98d4f39bdc94255",
+        "uid" : "51dc763555a8de0f",
         "parentUid" : "673dcc3156566d413ace62f11817f31b",
         "status" : "broken",
         "time" : {
-          "start" : 1537105457021,
-          "stop" : 1537105457047,
-          "duration" : 26
+          "start" : 1537115481088,
+          "stop" : 1537115481112,
+          "duration" : 24
         },
         "flaky" : false,
         "parameters" : [ "someParamValue" ]

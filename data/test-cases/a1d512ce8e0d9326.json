@@ -1,12 +1,12 @@
 {
-  "uid" : "c08d491c0e52aff0",
-  "name" : "ignored and commented JBehave strings should be as ignored steps",
-  "fullName" : "differentTestStepType.story: ignored and commented JBehave strings should be as ignored steps",
-  "historyId" : "5FAB4DDF88BAB93524FDCB51B74B052C",
+  "uid" : "a1d512ce8e0d9326",
+  "name" : "'sEVERITY' lable",
+  "fullName" : "severityLabelSceario.story: 'sEVERITY' lable",
+  "historyId" : "9C9579111475B61B5BF1F5942BDADFFD",
   "time" : {
-    "start" : 1537105456006,
-    "stop" : 1537105456058,
-    "duration" : 52
+    "start" : 1537115480492,
+    "stop" : 1537115480517,
+    "duration" : 25
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456021,
-        "stop" : 1537105456032,
-        "duration" : 11
+        "start" : 1537115480502,
+        "stop" : 1537115480507,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,26 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "!-- some ignored step among others",
-      "time" : {
-        "start" : 1537105456035,
-        "stop" : 1537105456036,
-        "duration" : 1
-      },
-      "status" : "skipped",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456042,
-        "stop" : 1537105456050,
-        "duration" : 8
+        "start" : 1537115480507,
+        "stop" : 1537115480514,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456050,
-        "stop" : 1537105456054,
-        "duration" : 4
+        "start" : 1537115480514,
+        "stop" : 1537115480516,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -79,7 +64,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : true,
     "hasContent" : true
@@ -90,10 +75,16 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "differentTestStepType.story"
+    "value" : "severityLabelSceario.story"
+  }, {
+    "name" : "tag",
+    "value" : "sEVERITY='tRIVIAL'"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -106,11 +97,31 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "trivial",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ccbbe320953aa954",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456419,
+          "stop" : 1537105456438,
+          "duration" : 19
+        }
+      } ]
+    },
+    "tags" : [ "sEVERITY='tRIVIAL'" ]
   },
-  "source" : "c08d491c0e52aff0.json",
+  "source" : "a1d512ce8e0d9326.json",
   "parameterValues" : [ "someParamValue" ]
 }

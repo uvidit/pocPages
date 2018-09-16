@@ -1,14 +1,14 @@
 {
-  "uid" : "8126ed6e798dc151",
-  "name" : "'Severity' lable",
-  "fullName" : "severityLabelSceario.story: 'Severity' lable",
-  "historyId" : "C3157DFB372D88FCB1F97F684C2C6AAB",
+  "uid" : "c8c9c9e061ff44da",
+  "name" : "scenario description (mock2) (EXAMPLE #1)",
+  "fullName" : "simpleTestMock2.story: scenario description (mock2) (EXAMPLE #1)",
+  "historyId" : "simpleTestMock2.story: scenario description (mock2) (EXAMPLE #1)",
   "time" : {
-    "start" : 1537105456385,
-    "stop" : 1537105456414,
-    "duration" : 29
+    "start" : 1537115480812,
+    "stop" : 1537115480853,
+    "duration" : 41
   },
-  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "descriptionHtml" : "As a user<br>I want to perform an action<br>So that I can achieve a business goal",
   "status" : "passed",
   "statusMessage" : "Test passed.",
   "flaky" : false,
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456393,
-        "stop" : 1537105456397,
-        "duration" : 4
+        "start" : 1537115480829,
+        "stop" : 1537115480836,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456397,
-        "stop" : 1537105456406,
-        "duration" : 9
+        "start" : 1537115480836,
+        "stop" : 1537115480840,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456407,
-        "stop" : 1537105456409,
-        "duration" : 2
+        "start" : 1537115480840,
+        "stop" : 1537115480844,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,13 +75,19 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "severityLabelSceario.story"
+    "value" : "simpleTestMock2.story"
   }, {
     "name" : "tag",
-    "value" : "Severity='Trivial'"
+    "value" : "owner='LazyOwner'"
+  }, {
+    "name" : "tag",
+    "value" : "severity='trivial'"
+  }, {
+    "name" : "owner",
+    "value" : "LazyOwner"
   }, {
     "name" : "severity",
     "value" : "trivial"
@@ -90,6 +96,9 @@
     "value" : "allure2"
   } ],
   "parameters" : [ {
+    "name" : "exNumber",
+    "value" : "1"
+  }, {
     "name" : "someParamName",
     "value" : "someParamValue"
   } ],
@@ -98,10 +107,31 @@
   "retry" : false,
   "extra" : {
     "severity" : "trivial",
+    "owner" : "LazyOwner",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "Severity='Trivial'" ]
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fe4d8256cb78829d",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456727,
+          "stop" : 1537105456762,
+          "duration" : 35
+        }
+      } ]
+    },
+    "tags" : [ "owner='LazyOwner'", "severity='trivial'" ]
   },
-  "source" : "8126ed6e798dc151.json",
-  "parameterValues" : [ "someParamValue" ]
+  "source" : "c8c9c9e061ff44da.json",
+  "parameterValues" : [ "1", "someParamValue" ]
 }

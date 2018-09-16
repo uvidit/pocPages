@@ -1,11 +1,11 @@
 {
-  "uid" : "e2a8f175127e78be",
+  "uid" : "44578e5a39dc5cd1",
   "name" : "various step types",
   "fullName" : "differentTestStepType.story: various step types",
   "historyId" : "D0A2D6132E39351D46416CBC3CC81F48",
   "time" : {
-    "start" : 1537105456107,
-    "stop" : 1537105456169,
+    "start" : 1537115480186,
+    "stop" : 1537115480248,
     "duration" : 62
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "!-- comment after TITLE\nMeta:",
       "time" : {
-        "start" : 1537105456120,
-        "stop" : 1537105456120,
+        "start" : 1537115480199,
+        "stop" : 1537115480199,
         "duration" : 0
       },
       "status" : "skipped",
@@ -34,8 +34,8 @@
     }, {
       "name" : "!-- comment after META",
       "time" : {
-        "start" : 1537105456121,
-        "stop" : 1537105456121,
+        "start" : 1537115480204,
+        "stop" : 1537115480204,
         "duration" : 0
       },
       "status" : "skipped",
@@ -49,9 +49,9 @@
     }, {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456122,
-        "stop" : 1537105456126,
-        "duration" : 4
+        "start" : 1537115480204,
+        "stop" : 1537115480209,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,8 +64,8 @@
     }, {
       "name" : "!-- MIDDLE#1  step comment",
       "time" : {
-        "start" : 1537105456130,
-        "stop" : 1537105456130,
+        "start" : 1537115480210,
+        "stop" : 1537115480210,
         "duration" : 0
       },
       "status" : "skipped",
@@ -79,9 +79,9 @@
     }, {
       "name" : "PENDING (not implemented): When i have NOT IMPLEMENTED step w/o",
       "time" : {
-        "start" : 1537105456136,
-        "stop" : 1537105456138,
-        "duration" : 2
+        "start" : 1537115480216,
+        "stop" : 1537115480217,
+        "duration" : 1
       },
       "status" : "broken",
       "steps" : [ ],
@@ -94,9 +94,9 @@
     }, {
       "name" : "NOT PERFORMED: When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456141,
-        "stop" : 1537105456147,
-        "duration" : 6
+        "start" : 1537115480219,
+        "stop" : 1537115480224,
+        "duration" : 5
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -109,8 +109,8 @@
     }, {
       "name" : "NOT PERFORMED: Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456148,
-        "stop" : 1537105456148,
+        "start" : 1537115480225,
+        "stop" : 1537115480225,
         "duration" : 0
       },
       "status" : "skipped",
@@ -124,9 +124,9 @@
     }, {
       "name" : "!-- MIDDLE#2 step comment",
       "time" : {
-        "start" : 1537105456151,
-        "stop" : 1537105456151,
-        "duration" : 0
+        "start" : 1537115480228,
+        "stop" : 1537115480229,
+        "duration" : 1
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -139,8 +139,8 @@
     }, {
       "name" : "NOT PERFORMED: Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456152,
-        "stop" : 1537105456152,
+        "start" : 1537115480230,
+        "stop" : 1537115480230,
         "duration" : 0
       },
       "status" : "skipped",
@@ -154,8 +154,8 @@
     }, {
       "name" : "NOT PERFORMED: Then test suddenly failed...",
       "time" : {
-        "start" : 1537105456154,
-        "stop" : 1537105456154,
+        "start" : 1537115480231,
+        "stop" : 1537115480231,
         "duration" : 0
       },
       "status" : "skipped",
@@ -169,8 +169,8 @@
     }, {
       "name" : "!-- LAST step comment",
       "time" : {
-        "start" : 1537105456155,
-        "stop" : 1537105456155,
+        "start" : 1537115480235,
+        "stop" : 1537115480235,
         "duration" : 0
       },
       "status" : "skipped",
@@ -195,7 +195,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "differentTestStepType.story"
@@ -218,8 +218,28 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e2a8f175127e78be",
+        "status" : "broken",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456107,
+          "stop" : 1537105456169,
+          "duration" : 62
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "e2a8f175127e78be.json",
+  "source" : "44578e5a39dc5cd1.json",
   "parameterValues" : [ "someParamValue" ]
 }

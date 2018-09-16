@@ -1,14 +1,14 @@
 {
-  "uid" : "b10838858436905e",
-  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
-  "fullName" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)",
-  "historyId" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)",
+  "uid" : "d907bf5e8fdff657",
+  "name" : "'Severity' lable",
+  "fullName" : "severityLabelSceario.story: 'Severity' lable",
+  "historyId" : "C3157DFB372D88FCB1F97F684C2C6AAB",
   "time" : {
-    "start" : 1537105456505,
-    "stop" : 1537105456547,
-    "duration" : 42
+    "start" : 1537115480462,
+    "stop" : 1537115480489,
+    "duration" : 27
   },
-  "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
   "statusMessage" : "Test passed.",
   "flaky" : false,
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456525,
-        "stop" : 1537105456533,
-        "duration" : 8
+        "start" : 1537115480473,
+        "stop" : 1537115480476,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456534,
-        "stop" : 1537105456539,
-        "duration" : 5
+        "start" : 1537115480476,
+        "stop" : 1537115480479,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456539,
-        "stop" : 1537105456545,
-        "duration" : 6
+        "start" : 1537115480480,
+        "stop" : 1537115480488,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,33 +75,21 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "simpleTestMock.story"
+    "value" : "severityLabelSceario.story"
   }, {
     "name" : "tag",
-    "value" : "tc1Label_withNoVal=''"
+    "value" : "Severity='Trivial'"
   }, {
-    "name" : "tag",
-    "value" : "tc1Label_withVal='tc1LabelVal'"
-  }, {
-    "name" : "tc1Label_withVal",
-    "value" : "tc1LabelVal"
-  }, {
-    "name" : "tc1Label_withNoVal",
-    "value" : ""
+    "name" : "severity",
+    "value" : "trivial"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "exNumber",
-    "value" : "1"
-  }, {
-    "name" : "exVal",
-    "value" : "val1"
-  }, {
     "name" : "someParamName",
     "value" : "someParamValue"
   } ],
@@ -109,11 +97,31 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "trivial",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "tc1Label_withNoVal=''", "tc1Label_withVal='tc1LabelVal'" ]
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8126ed6e798dc151",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456385,
+          "stop" : 1537105456414,
+          "duration" : 29
+        }
+      } ]
+    },
+    "tags" : [ "Severity='Trivial'" ]
   },
-  "source" : "b10838858436905e.json",
-  "parameterValues" : [ "1", "val1", "someParamValue" ]
+  "source" : "d907bf5e8fdff657.json",
+  "parameterValues" : [ "someParamValue" ]
 }

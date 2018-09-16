@@ -1,14 +1,14 @@
 {
-  "uid" : "5550a850d6eb92fd",
-  "name" : "'SEVERITY' lable",
-  "fullName" : "severityLabelSceario.story: 'SEVERITY' lable",
-  "historyId" : "DE71A5A5E7D3CE5879F47A2D077A07DE",
+  "uid" : "bb161a0c03228328",
+  "name" : "2. scenario w/o EXAMPLES instances",
+  "fullName" : "simpleTestMock.story: 2. scenario w/o EXAMPLES instances",
+  "historyId" : "C521758FB7E8B1BB66FCA05E198FE83C",
   "time" : {
-    "start" : 1537105456354,
-    "stop" : 1537105456382,
+    "start" : 1537115480690,
+    "stop" : 1537115480718,
     "duration" : 28
   },
-  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
   "status" : "passed",
   "statusMessage" : "Test passed.",
   "flaky" : false,
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537105456361,
-        "stop" : 1537105456364,
-        "duration" : 3
+        "start" : 1537115480697,
+        "stop" : 1537115480703,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537105456364,
-        "stop" : 1537105456369,
-        "duration" : 5
+        "start" : 1537115480703,
+        "stop" : 1537115480711,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537105456369,
-        "stop" : 1537105456379,
-        "duration" : 10
+        "start" : 1537115480711,
+        "stop" : 1537115480716,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,16 +75,22 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3036@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "severityLabelSceario.story"
+    "value" : "simpleTestMock.story"
   }, {
     "name" : "tag",
-    "value" : "SEVERITY='TRIVIAL'"
+    "value" : "tc2Label_withNoVal=''"
   }, {
-    "name" : "severity",
-    "value" : "trivial"
+    "name" : "tag",
+    "value" : "tc2Label_withVal='storyLabelVal'"
+  }, {
+    "name" : "tc2Label_withNoVal",
+    "value" : ""
+  }, {
+    "name" : "tc2Label_withVal",
+    "value" : "storyLabelVal"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -97,11 +103,31 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "trivial",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "SEVERITY='TRIVIAL'" ]
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "88a919ae298b749f",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456611,
+          "stop" : 1537105456636,
+          "duration" : 25
+        }
+      } ]
+    },
+    "tags" : [ "tc2Label_withNoVal=''", "tc2Label_withVal='storyLabelVal'" ]
   },
-  "source" : "5550a850d6eb92fd.json",
+  "source" : "bb161a0c03228328.json",
   "parameterValues" : [ "someParamValue" ]
 }
