@@ -1,12 +1,12 @@
 {
-  "uid" : "944653ede8ebbb84",
-  "name" : "with not implemented step after failing\niven a Calculator",
-  "fullName" : "differentTestStepType.story: with not implemented step after failing\niven a Calculator",
-  "historyId" : "5AB57EF70CD120E0172AA1B7BF269DE5",
+  "uid" : "f9e18d63f7c1e99e",
+  "name" : "Always failed TEST",
+  "fullName" : "alwaysFailedTest.story: Always failed TEST",
+  "historyId" : "FCA2127C08C80B7AE9887859FCE0C470",
   "time" : {
-    "start" : 1537115480253,
-    "stop" : 1537115480299,
-    "duration" : 46
+    "start" : 1537116735628,
+    "stop" : 1537116735784,
+    "duration" : 156
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "failed",
@@ -19,13 +19,13 @@
     "statusMessage" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
     "statusTrace" : "org.jbehave.core.failures.UUIDExceptionWrapper: Then test suddenly failed...\n\tat org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:583)\n\tat org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:533)\n\tat org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:513)\n\tat org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:477)\n\tat org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:308)\n\tat org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:220)\n\tat org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:181)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:235)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:207)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:956)\n\tat jbehave.steps.BasicSteps.testSuddenlyFailed(BasicSteps.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:569)\n\t... 12 more\n",
     "steps" : [ {
-      "name" : "!-- MIDDLE step comment",
+      "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480260,
-        "stop" : 1537115480260,
-        "duration" : 0
+        "start" : 1537116735668,
+        "stop" : 1537116735710,
+        "duration" : 42
       },
-      "status" : "skipped",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -36,8 +36,8 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480260,
-        "stop" : 1537115480267,
+        "start" : 1537116735721,
+        "stop" : 1537116735728,
         "duration" : 7
       },
       "status" : "passed",
@@ -49,58 +49,13 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then Calculator returns 5",
-      "time" : {
-        "start" : 1537115480268,
-        "stop" : 1537115480272,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "!-- LAST step comment",
-      "time" : {
-        "start" : 1537115480273,
-        "stop" : 1537115480273,
-        "duration" : 0
-      },
-      "status" : "skipped",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
       "name" : "Then test suddenly failed...",
       "time" : {
-        "start" : 1537115480273,
-        "stop" : 1537115480276,
-        "duration" : 3
+        "start" : 1537116735728,
+        "stop" : 1537116735746,
+        "duration" : 18
       },
       "status" : "failed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "PENDING (not implemented): When i have NOT IMPLEMENTED step w/o",
-      "time" : {
-        "start" : 1537115480279,
-        "stop" : 1537115480280,
-        "duration" : 1
-      },
-      "status" : "broken",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -111,7 +66,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 6,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : true,
     "hasContent" : true
@@ -122,10 +77,10 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "differentTestStepType.story"
+    "value" : "alwaysFailedTest.story"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -147,26 +102,35 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 2,
+        "failed" : 3,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "8a56bbfb82873601",
+        "uid" : "39ee1ab4eb5950c",
         "status" : "failed",
         "statusDetails" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
         "time" : {
-          "start" : 1537105456176,
-          "stop" : 1537105456226,
-          "duration" : 50
+          "start" : 1537115479558,
+          "stop" : 1537115479723,
+          "duration" : 165
+        }
+      }, {
+        "uid" : "1a9a1cbe8d9d1773",
+        "status" : "failed",
+        "statusDetails" : "java.lang.AssertionError: true is .... false?\nExpected: <false>\n     but: was <true>",
+        "time" : {
+          "start" : 1537105455498,
+          "stop" : 1537105455646,
+          "duration" : 148
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "944653ede8ebbb84.json",
+  "source" : "f9e18d63f7c1e99e.json",
   "parameterValues" : [ "someParamValue" ]
 }

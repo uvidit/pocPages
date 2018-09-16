@@ -1,12 +1,12 @@
 {
-  "uid" : "44578e5a39dc5cd1",
+  "uid" : "6f7c45f9604e1b63",
   "name" : "various step types",
   "fullName" : "differentTestStepType.story: various step types",
   "historyId" : "D0A2D6132E39351D46416CBC3CC81F48",
   "time" : {
-    "start" : 1537115480186,
-    "stop" : 1537115480248,
-    "duration" : 62
+    "start" : 1537116736317,
+    "stop" : 1537116736368,
+    "duration" : 51
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "broken",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "!-- comment after TITLE\nMeta:",
       "time" : {
-        "start" : 1537115480199,
-        "stop" : 1537115480199,
+        "start" : 1537116736325,
+        "stop" : 1537116736325,
         "duration" : 0
       },
       "status" : "skipped",
@@ -34,8 +34,8 @@
     }, {
       "name" : "!-- comment after META",
       "time" : {
-        "start" : 1537115480204,
-        "stop" : 1537115480204,
+        "start" : 1537116736327,
+        "stop" : 1537116736327,
         "duration" : 0
       },
       "status" : "skipped",
@@ -49,9 +49,9 @@
     }, {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480204,
-        "stop" : 1537115480209,
-        "duration" : 5
+        "start" : 1537116736327,
+        "stop" : 1537116736336,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,8 +64,8 @@
     }, {
       "name" : "!-- MIDDLE#1  step comment",
       "time" : {
-        "start" : 1537115480210,
-        "stop" : 1537115480210,
+        "start" : 1537116736337,
+        "stop" : 1537116736337,
         "duration" : 0
       },
       "status" : "skipped",
@@ -79,9 +79,9 @@
     }, {
       "name" : "PENDING (not implemented): When i have NOT IMPLEMENTED step w/o",
       "time" : {
-        "start" : 1537115480216,
-        "stop" : 1537115480217,
-        "duration" : 1
+        "start" : 1537116736340,
+        "stop" : 1537116736340,
+        "duration" : 0
       },
       "status" : "broken",
       "steps" : [ ],
@@ -94,9 +94,9 @@
     }, {
       "name" : "NOT PERFORMED: When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480219,
-        "stop" : 1537115480224,
-        "duration" : 5
+        "start" : 1537116736344,
+        "stop" : 1537116736344,
+        "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -109,8 +109,8 @@
     }, {
       "name" : "NOT PERFORMED: Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480225,
-        "stop" : 1537115480225,
+        "start" : 1537116736348,
+        "stop" : 1537116736348,
         "duration" : 0
       },
       "status" : "skipped",
@@ -124,9 +124,9 @@
     }, {
       "name" : "!-- MIDDLE#2 step comment",
       "time" : {
-        "start" : 1537115480228,
-        "stop" : 1537115480229,
-        "duration" : 1
+        "start" : 1537116736351,
+        "stop" : 1537116736351,
+        "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -139,8 +139,8 @@
     }, {
       "name" : "NOT PERFORMED: Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480230,
-        "stop" : 1537115480230,
+        "start" : 1537116736352,
+        "stop" : 1537116736352,
         "duration" : 0
       },
       "status" : "skipped",
@@ -154,8 +154,8 @@
     }, {
       "name" : "NOT PERFORMED: Then test suddenly failed...",
       "time" : {
-        "start" : 1537115480231,
-        "stop" : 1537115480231,
+        "start" : 1537116736356,
+        "stop" : 1537116736356,
         "duration" : 0
       },
       "status" : "skipped",
@@ -169,8 +169,8 @@
     }, {
       "name" : "!-- LAST step comment",
       "time" : {
-        "start" : 1537115480235,
-        "stop" : 1537115480235,
+        "start" : 1537116736357,
+        "stop" : 1537116736357,
         "duration" : 0
       },
       "status" : "skipped",
@@ -195,7 +195,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "differentTestStepType.story"
@@ -221,13 +221,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "44578e5a39dc5cd1",
+        "status" : "broken",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537115480186,
+          "stop" : 1537115480248,
+          "duration" : 62
+        }
+      }, {
         "uid" : "e2a8f175127e78be",
         "status" : "broken",
         "statusDetails" : "Test passed.",
@@ -240,6 +249,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "44578e5a39dc5cd1.json",
+  "source" : "6f7c45f9604e1b63.json",
   "parameterValues" : [ "someParamValue" ]
 }

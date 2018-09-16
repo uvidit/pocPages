@@ -2,193 +2,193 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Always failed TEST",
-    "uid" : "39ee1ab4eb5950c",
+    "uid" : "f9e18d63f7c1e99e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1537115479558,
-      "stop" : 1537115479723,
-      "duration" : 165
+      "start" : 1537116735628,
+      "stop" : 1537116735784,
+      "duration" : 156
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "ignored and commented JBehave strings should be as ignored steps",
-    "uid" : "5d5811e1affb37d5",
+    "uid" : "8635745dfc13f66d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480101,
-      "stop" : 1537115480144,
-      "duration" : 43
+      "start" : 1537116736231,
+      "stop" : 1537116736275,
+      "duration" : 44
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "comments in varios places",
-    "uid" : "116d35aac2adfc44",
+    "uid" : "e6cec51cf575e24c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480147,
-      "stop" : 1537115480182,
-      "duration" : 35
+      "start" : 1537116736282,
+      "stop" : 1537116736313,
+      "duration" : 31
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "various step types",
-    "uid" : "44578e5a39dc5cd1",
+    "uid" : "6f7c45f9604e1b63",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1537115480186,
-      "stop" : 1537115480248,
-      "duration" : 62
+      "start" : 1537116736317,
+      "stop" : 1537116736368,
+      "duration" : 51
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "with not implemented step after failing\niven a Calculator",
-    "uid" : "944653ede8ebbb84",
+    "uid" : "4be29a5a06cf7bfc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1537115480253,
-      "stop" : 1537115480299,
-      "duration" : 46
+      "start" : 1537116736376,
+      "stop" : 1537116736423,
+      "duration" : 47
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "'severity' lable",
-    "uid" : "a8ecf5c866316da0",
+    "uid" : "61e27e7d6e3bdbac",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480387,
-      "stop" : 1537115480424,
-      "duration" : 37
+      "start" : 1537116736510,
+      "stop" : 1537116736540,
+      "duration" : 30
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "'SEVERITY' lable",
-    "uid" : "d1c3ead17f4aba61",
+    "uid" : "431d1d1f071b188c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480432,
-      "stop" : 1537115480460,
-      "duration" : 28
-    },
-    "flaky" : false,
-    "parameters" : [ "someParamValue" ]
-  }, {
-    "name" : "'Severity' lable",
-    "uid" : "d907bf5e8fdff657",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1537115480462,
-      "stop" : 1537115480489,
-      "duration" : 27
-    },
-    "flaky" : false,
-    "parameters" : [ "someParamValue" ]
-  }, {
-    "name" : "'sEVERITY' lable",
-    "uid" : "a1d512ce8e0d9326",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1537115480492,
-      "stop" : 1537115480517,
+      "start" : 1537116736545,
+      "stop" : 1537116736570,
       "duration" : 25
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
-    "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
-    "uid" : "ceec866a7a6e1ab7",
+    "name" : "'Severity' lable",
+    "uid" : "8b23d668fa9399ad",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480592,
-      "stop" : 1537115480632,
-      "duration" : 40
+      "start" : 1537116736572,
+      "stop" : 1537116736597,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "parameters" : [ "someParamValue" ]
+  }, {
+    "name" : "'sEVERITY' lable",
+    "uid" : "57e2f162d1549eaa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537116736602,
+      "stop" : 1537116736621,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "parameters" : [ "someParamValue" ]
+  }, {
+    "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
+    "uid" : "5c19f79f7064b105",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537116736703,
+      "stop" : 1537116736741,
+      "duration" : 38
     },
     "flaky" : false,
     "parameters" : [ "1", "val1", "someParamValue" ]
   }, {
     "name" : "1. scenario with EXAMPLES instances (EXAMPLE #2)",
-    "uid" : "1bed30233aad3e54",
+    "uid" : "2c6d8ae6ac391f57",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480634,
-      "stop" : 1537115480661,
-      "duration" : 27
+      "start" : 1537116736743,
+      "stop" : 1537116736766,
+      "duration" : 23
     },
     "flaky" : false,
     "parameters" : [ "2", "val2", "someParamValue" ]
   }, {
     "name" : "1. scenario with EXAMPLES instances (EXAMPLE #3)",
-    "uid" : "1c208086ce1a5aa0",
+    "uid" : "8aa595b82935a25d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480663,
-      "stop" : 1537115480686,
+      "start" : 1537116736773,
+      "stop" : 1537116736796,
       "duration" : 23
     },
     "flaky" : false,
     "parameters" : [ "3", "val3", "someParamValue" ]
   }, {
     "name" : "2. scenario w/o EXAMPLES instances",
-    "uid" : "bb161a0c03228328",
+    "uid" : "19c385dbda060ac6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480690,
-      "stop" : 1537115480718,
-      "duration" : 28
+      "start" : 1537116736798,
+      "stop" : 1537116736825,
+      "duration" : 27
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "scenario description (mock2) (EXAMPLE #1)",
-    "uid" : "c8c9c9e061ff44da",
+    "uid" : "273bd73fb9e392db",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480812,
-      "stop" : 1537115480853,
-      "duration" : 41
+      "start" : 1537116736919,
+      "stop" : 1537116736952,
+      "duration" : 33
     },
     "flaky" : false,
     "parameters" : [ "1", "someParamValue" ]
   }, {
     "name" : "scenario description (mock2) (EXAMPLE #2)",
-    "uid" : "be3dc07c6f5726c2",
+    "uid" : "e689216daa01ef97",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1537115480854,
-      "stop" : 1537115480888,
-      "duration" : 34
+      "start" : 1537116736953,
+      "stop" : 1537116736988,
+      "duration" : 35
     },
     "flaky" : false,
     "parameters" : [ "2", "someParamValue" ]
   }, {
     "name" : "SKIPED scenario description",
-    "uid" : "fa8d1d2bf1c623f1",
+    "uid" : "554b9fca7f12f836",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1537115480896,
-      "stop" : 1537115480897,
-      "duration" : 1
+      "start" : 1537116736996,
+      "stop" : 1537116736998,
+      "duration" : 2
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
@@ -200,25 +200,25 @@
         "name" : "TinyStoryAbout",
         "children" : [ {
           "name" : "'all' types of lables scenario",
-          "uid" : "532afaa3f9988034",
+          "uid" : "8703a0808cd13369",
           "parentUid" : "08737a7a6c79c0bdb7f4c80974f0fc02",
           "status" : "passed",
           "time" : {
-            "start" : 1537115480906,
-            "stop" : 1537115480935,
-            "duration" : 29
+            "start" : 1537116737007,
+            "stop" : 1537116737041,
+            "duration" : 34
           },
           "flaky" : false,
           "parameters" : [ "someParamValue" ]
         }, {
           "name" : "'All' types of lables scenario",
-          "uid" : "ce86bd86f7343b68",
+          "uid" : "5d58daaa13d1ece6",
           "parentUid" : "08737a7a6c79c0bdb7f4c80974f0fc02",
           "status" : "passed",
           "time" : {
-            "start" : 1537115480978,
-            "stop" : 1537115481007,
-            "duration" : 29
+            "start" : 1537116737089,
+            "stop" : 1537116737121,
+            "duration" : 32
           },
           "flaky" : false,
           "parameters" : [ "someParamValue" ]
@@ -236,12 +236,12 @@
         "name" : "TINYSTORYABOUT",
         "children" : [ {
           "name" : "'ALL' types of lables scenario",
-          "uid" : "1f0a80073d217f7e",
+          "uid" : "288da701bb7c08e0",
           "parentUid" : "afc9417f1114ca7549c5a7f7123f2815",
           "status" : "passed",
           "time" : {
-            "start" : 1537115480940,
-            "stop" : 1537115480973,
+            "start" : 1537116737051,
+            "stop" : 1537116737084,
             "duration" : 33
           },
           "flaky" : false,
@@ -254,25 +254,25 @@
     "uid" : "31647038156ec1612a69d1cda438a139"
   }, {
     "name" : "Add elements to empty stack",
-    "uid" : "bb057b6dd90997f9",
+    "uid" : "100991c2b4be3789",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1537115481061,
-      "stop" : 1537115481084,
-      "duration" : 23
+      "start" : 1537116737180,
+      "stop" : 1537116737199,
+      "duration" : 19
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]
   }, {
     "name" : "Clear stack",
-    "uid" : "51dc763555a8de0f",
+    "uid" : "c64ba95445e1f9a3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1537115481088,
-      "stop" : 1537115481112,
-      "duration" : 24
+      "start" : 1537116737201,
+      "stop" : 1537116737219,
+      "duration" : 18
     },
     "flaky" : false,
     "parameters" : [ "someParamValue" ]

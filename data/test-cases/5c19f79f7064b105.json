@@ -1,14 +1,14 @@
 {
-  "uid" : "d1c3ead17f4aba61",
-  "name" : "'SEVERITY' lable",
-  "fullName" : "severityLabelSceario.story: 'SEVERITY' lable",
-  "historyId" : "DE71A5A5E7D3CE5879F47A2D077A07DE",
+  "uid" : "5c19f79f7064b105",
+  "name" : "1. scenario with EXAMPLES instances (EXAMPLE #1)",
+  "fullName" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)",
+  "historyId" : "simpleTestMock.story: 1. scenario with EXAMPLES instances (EXAMPLE #1)",
   "time" : {
-    "start" : 1537115480432,
-    "stop" : 1537115480460,
-    "duration" : 28
+    "start" : 1537116736703,
+    "stop" : 1537116736741,
+    "duration" : 38
   },
-  "descriptionHtml" : "As a <br>I want to <br>So that ",
+  "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
   "status" : "passed",
   "statusMessage" : "Test passed.",
   "flaky" : false,
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480436,
-        "stop" : 1537115480442,
-        "duration" : 6
+        "start" : 1537116736718,
+        "stop" : 1537116736730,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480442,
-        "stop" : 1537115480445,
-        "duration" : 3
+        "start" : 1537116736731,
+        "stop" : 1537116736736,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480445,
-        "stop" : 1537115480453,
-        "duration" : 8
+        "start" : 1537116736736,
+        "stop" : 1537116736740,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,21 +75,33 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "severityLabelSceario.story"
+    "value" : "simpleTestMock.story"
   }, {
     "name" : "tag",
-    "value" : "SEVERITY='TRIVIAL'"
+    "value" : "tc1Label_withNoVal=''"
   }, {
-    "name" : "severity",
-    "value" : "trivial"
+    "name" : "tag",
+    "value" : "tc1Label_withVal='tc1LabelVal'"
+  }, {
+    "name" : "tc1Label_withVal",
+    "value" : "tc1LabelVal"
+  }, {
+    "name" : "tc1Label_withNoVal",
+    "value" : ""
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
+    "name" : "exNumber",
+    "value" : "1"
+  }, {
+    "name" : "exVal",
+    "value" : "val1"
+  }, {
     "name" : "someParamName",
     "value" : "someParamValue"
   } ],
@@ -97,7 +109,7 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "trivial",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "history" : {
@@ -105,23 +117,32 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "5550a850d6eb92fd",
+        "uid" : "ceec866a7a6e1ab7",
         "status" : "passed",
         "statusDetails" : "Test passed.",
         "time" : {
-          "start" : 1537105456354,
-          "stop" : 1537105456382,
-          "duration" : 28
+          "start" : 1537115480592,
+          "stop" : 1537115480632,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "b10838858436905e",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456505,
+          "stop" : 1537105456547,
+          "duration" : 42
         }
       } ]
     },
-    "tags" : [ "SEVERITY='TRIVIAL'" ]
+    "tags" : [ "tc1Label_withNoVal=''", "tc1Label_withVal='tc1LabelVal'" ]
   },
-  "source" : "d1c3ead17f4aba61.json",
-  "parameterValues" : [ "someParamValue" ]
+  "source" : "5c19f79f7064b105.json",
+  "parameterValues" : [ "1", "val1", "someParamValue" ]
 }

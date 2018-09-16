@@ -1,12 +1,12 @@
 {
-  "uid" : "5d5811e1affb37d5",
-  "name" : "ignored and commented JBehave strings should be as ignored steps",
-  "fullName" : "differentTestStepType.story: ignored and commented JBehave strings should be as ignored steps",
-  "historyId" : "5FAB4DDF88BAB93524FDCB51B74B052C",
+  "uid" : "8b23d668fa9399ad",
+  "name" : "'Severity' lable",
+  "fullName" : "severityLabelSceario.story: 'Severity' lable",
+  "historyId" : "C3157DFB372D88FCB1F97F684C2C6AAB",
   "time" : {
-    "start" : 1537115480101,
-    "stop" : 1537115480144,
-    "duration" : 43
+    "start" : 1537116736572,
+    "stop" : 1537116736597,
+    "duration" : 25
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480110,
-        "stop" : 1537115480117,
-        "duration" : 7
+        "start" : 1537116736580,
+        "stop" : 1537116736584,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,26 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "!-- some ignored step among others",
-      "time" : {
-        "start" : 1537115480125,
-        "stop" : 1537115480126,
-        "duration" : 1
-      },
-      "status" : "skipped",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480126,
-        "stop" : 1537115480131,
-        "duration" : 5
+        "start" : 1537116736588,
+        "stop" : 1537116736594,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,8 +49,8 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480132,
-        "stop" : 1537115480134,
+        "start" : 1537116736594,
+        "stop" : 1537116736596,
         "duration" : 2
       },
       "status" : "passed",
@@ -79,7 +64,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : true,
     "hasContent" : true
@@ -90,10 +75,16 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "differentTestStepType.story"
+    "value" : "severityLabelSceario.story"
+  }, {
+    "name" : "tag",
+    "value" : "Severity='Trivial'"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -106,7 +97,7 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "trivial",
     "retries" : [ ],
     "categories" : [ ],
     "history" : {
@@ -114,23 +105,32 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "c08d491c0e52aff0",
+        "uid" : "d907bf5e8fdff657",
         "status" : "passed",
         "statusDetails" : "Test passed.",
         "time" : {
-          "start" : 1537105456006,
-          "stop" : 1537105456058,
-          "duration" : 52
+          "start" : 1537115480462,
+          "stop" : 1537115480489,
+          "duration" : 27
+        }
+      }, {
+        "uid" : "8126ed6e798dc151",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456385,
+          "stop" : 1537105456414,
+          "duration" : 29
         }
       } ]
     },
-    "tags" : [ ]
+    "tags" : [ "Severity='Trivial'" ]
   },
-  "source" : "5d5811e1affb37d5.json",
+  "source" : "8b23d668fa9399ad.json",
   "parameterValues" : [ "someParamValue" ]
 }

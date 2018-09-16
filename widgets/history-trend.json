@@ -16,4 +16,13 @@
     "unknown" : 0,
     "total" : 21
   }
+}, {
+  "data" : {
+    "failed" : 2,
+    "broken" : 3,
+    "skipped" : 1,
+    "passed" : 15,
+    "unknown" : 0,
+    "total" : 21
+  }
 } ]

@@ -1,14 +1,14 @@
 {
-  "uid" : "bb161a0c03228328",
-  "name" : "2. scenario w/o EXAMPLES instances",
-  "fullName" : "simpleTestMock.story: 2. scenario w/o EXAMPLES instances",
-  "historyId" : "C521758FB7E8B1BB66FCA05E198FE83C",
+  "uid" : "8635745dfc13f66d",
+  "name" : "ignored and commented JBehave strings should be as ignored steps",
+  "fullName" : "differentTestStepType.story: ignored and commented JBehave strings should be as ignored steps",
+  "historyId" : "5FAB4DDF88BAB93524FDCB51B74B052C",
   "time" : {
-    "start" : 1537115480690,
-    "stop" : 1537115480718,
-    "duration" : 28
+    "start" : 1537116736231,
+    "stop" : 1537116736275,
+    "duration" : 44
   },
-  "descriptionHtml" : "As a user<br>I want to perform an action MOCK<br>So that I can achieve a business goal",
+  "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
   "statusMessage" : "Test passed.",
   "flaky" : false,
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480697,
-        "stop" : 1537115480703,
-        "duration" : 6
+        "start" : 1537116736247,
+        "stop" : 1537116736255,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
+      "name" : "!-- some ignored step among others",
+      "time" : {
+        "start" : 1537116736260,
+        "stop" : 1537116736260,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480703,
-        "stop" : 1537115480711,
-        "duration" : 8
+        "start" : 1537116736260,
+        "stop" : 1537116736265,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +64,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480711,
-        "stop" : 1537115480716,
-        "duration" : 5
+        "start" : 1537116736265,
+        "stop" : 1537116736272,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,7 +79,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : true,
     "hasContent" : true
@@ -75,22 +90,10 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
-    "value" : "simpleTestMock.story"
-  }, {
-    "name" : "tag",
-    "value" : "tc2Label_withNoVal=''"
-  }, {
-    "name" : "tag",
-    "value" : "tc2Label_withVal='storyLabelVal'"
-  }, {
-    "name" : "tc2Label_withNoVal",
-    "value" : ""
-  }, {
-    "name" : "tc2Label_withVal",
-    "value" : "storyLabelVal"
+    "value" : "differentTestStepType.story"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -111,23 +114,32 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "88a919ae298b749f",
+        "uid" : "5d5811e1affb37d5",
         "status" : "passed",
         "statusDetails" : "Test passed.",
         "time" : {
-          "start" : 1537105456611,
-          "stop" : 1537105456636,
-          "duration" : 25
+          "start" : 1537115480101,
+          "stop" : 1537115480144,
+          "duration" : 43
+        }
+      }, {
+        "uid" : "c08d491c0e52aff0",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456006,
+          "stop" : 1537105456058,
+          "duration" : 52
         }
       } ]
     },
-    "tags" : [ "tc2Label_withNoVal=''", "tc2Label_withVal='storyLabelVal'" ]
+    "tags" : [ ]
   },
-  "source" : "bb161a0c03228328.json",
+  "source" : "8635745dfc13f66d.json",
   "parameterValues" : [ "someParamValue" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "a8ecf5c866316da0",
-  "name" : "'severity' lable",
-  "fullName" : "severityLabelSceario.story: 'severity' lable",
-  "historyId" : "B7FB9C4438F56D372833484E45E12D05",
+  "uid" : "431d1d1f071b188c",
+  "name" : "'SEVERITY' lable",
+  "fullName" : "severityLabelSceario.story: 'SEVERITY' lable",
+  "historyId" : "DE71A5A5E7D3CE5879F47A2D077A07DE",
   "time" : {
-    "start" : 1537115480387,
-    "stop" : 1537115480424,
-    "duration" : 37
+    "start" : 1537116736545,
+    "stop" : 1537116736570,
+    "duration" : 25
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480396,
-        "stop" : 1537115480411,
-        "duration" : 15
+        "start" : 1537116736554,
+        "stop" : 1537116736557,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480411,
-        "stop" : 1537115480416,
-        "duration" : 5
+        "start" : 1537116736558,
+        "stop" : 1537116736560,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +49,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480416,
-        "stop" : 1537115480423,
-        "duration" : 7
+        "start" : 1537116736560,
+        "stop" : 1537116736569,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,13 +75,13 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "severityLabelSceario.story"
   }, {
     "name" : "tag",
-    "value" : "severity='trivial'"
+    "value" : "SEVERITY='TRIVIAL'"
   }, {
     "name" : "severity",
     "value" : "trivial"
@@ -105,23 +105,32 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "f05a3caace475f54",
+        "uid" : "d1c3ead17f4aba61",
         "status" : "passed",
         "statusDetails" : "Test passed.",
         "time" : {
-          "start" : 1537105456309,
-          "stop" : 1537105456347,
-          "duration" : 38
+          "start" : 1537115480432,
+          "stop" : 1537115480460,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "5550a850d6eb92fd",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537105456354,
+          "stop" : 1537105456382,
+          "duration" : 28
         }
       } ]
     },
-    "tags" : [ "severity='trivial'" ]
+    "tags" : [ "SEVERITY='TRIVIAL'" ]
   },
-  "source" : "a8ecf5c866316da0.json",
+  "source" : "431d1d1f071b188c.json",
   "parameterValues" : [ "someParamValue" ]
 }

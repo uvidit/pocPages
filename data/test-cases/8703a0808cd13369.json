@@ -1,12 +1,12 @@
 {
-  "uid" : "532afaa3f9988034",
+  "uid" : "8703a0808cd13369",
   "name" : "'all' types of lables scenario",
   "fullName" : "simpleTestMock2.story: 'all' types of lables scenario",
   "historyId" : "9BDD8FA87052114789474A1B1DBFBFE7",
   "time" : {
-    "start" : 1537115480906,
-    "stop" : 1537115480935,
-    "duration" : 29
+    "start" : 1537116737007,
+    "stop" : 1537116737041,
+    "duration" : 34
   },
   "descriptionHtml" : "As a user<br>I want to perform an action<br>So that I can achieve a business goal",
   "status" : "passed",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480921,
-        "stop" : 1537115480923,
+        "start" : 1537116737026,
+        "stop" : 1537116737028,
         "duration" : 2
       },
       "status" : "passed",
@@ -34,8 +34,8 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480924,
-        "stop" : 1537115480926,
+        "start" : 1537116737029,
+        "stop" : 1537116737031,
         "duration" : 2
       },
       "status" : "passed",
@@ -49,8 +49,8 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480926,
-        "stop" : 1537115480932,
+        "start" : 1537116737031,
+        "stop" : 1537116737037,
         "duration" : 6
       },
       "status" : "passed",
@@ -75,7 +75,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "simpleTestMock2.story"
@@ -177,11 +177,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "532afaa3f9988034",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537115480906,
+          "stop" : 1537115480935,
+          "duration" : 29
+        }
+      }, {
         "uid" : "cbf6706cf12e3cae",
         "status" : "passed",
         "statusDetails" : "Test passed.",
@@ -194,6 +203,6 @@
     },
     "tags" : [ "severity='Trivial'", "story='TinyStoryAbout'", "tms='allureBinTray|https://bintray.com/search/packages/tag?query=allure#'", "link='AllureBlog|https://qameta.io'", "issue='postNewIssue|https://github.com/allure-framework/allure2/issues/new'", "package='JBehaveToAllurePack'", "owner='GreedyOwner'", "feature='Incredible Feature'", "testclass='SomeUnknownTestClassName'", "epic='EverBestEpic'", "testmethod='SomeUknownToTestMethod'" ]
   },
-  "source" : "532afaa3f9988034.json",
+  "source" : "8703a0808cd13369.json",
   "parameterValues" : [ "someParamValue" ]
 }

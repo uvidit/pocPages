@@ -1,12 +1,12 @@
 {
-  "uid" : "bb057b6dd90997f9",
+  "uid" : "100991c2b4be3789",
   "name" : "Add elements to empty stack",
   "fullName" : "stack_story.story: Add elements to empty stack",
   "historyId" : "9FA3C6920A70CFD467CCFAD88537AAE8",
   "time" : {
-    "start" : 1537115481061,
-    "stop" : 1537115481084,
-    "duration" : 23
+    "start" : 1537116737180,
+    "stop" : 1537116737199,
+    "duration" : 19
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "broken",
@@ -21,8 +21,8 @@
     "steps" : [ {
       "name" : "PENDING (not implemented): Given an empty stack",
       "time" : {
-        "start" : 1537115481071,
-        "stop" : 1537115481071,
+        "start" : 1537116737188,
+        "stop" : 1537116737188,
         "duration" : 0
       },
       "status" : "broken",
@@ -36,8 +36,8 @@
     }, {
       "name" : "PENDING (not implemented): When I add 4 elements",
       "time" : {
-        "start" : 1537115481073,
-        "stop" : 1537115481073,
+        "start" : 1537116737189,
+        "stop" : 1537116737189,
         "duration" : 0
       },
       "status" : "broken",
@@ -51,8 +51,8 @@
     }, {
       "name" : "PENDING (not implemented): Then the stack should have 2 elements",
       "time" : {
-        "start" : 1537115481074,
-        "stop" : 1537115481074,
+        "start" : 1537116737189,
+        "stop" : 1537116737189,
         "duration" : 0
       },
       "status" : "broken",
@@ -77,7 +77,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "stack_story.story"
@@ -110,13 +110,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "bb057b6dd90997f9",
+        "status" : "broken",
+        "statusDetails" : "Unknown test status.",
+        "time" : {
+          "start" : 1537115481061,
+          "stop" : 1537115481084,
+          "duration" : 23
+        }
+      }, {
         "uid" : "486a1a28bf9b2b0c",
         "status" : "broken",
         "statusDetails" : "Unknown test status.",
@@ -129,6 +138,6 @@
     },
     "tags" : [ "owner='GreedyOwner'" ]
   },
-  "source" : "bb057b6dd90997f9.json",
+  "source" : "100991c2b4be3789.json",
   "parameterValues" : [ "someParamValue" ]
 }

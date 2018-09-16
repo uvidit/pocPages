@@ -1,12 +1,12 @@
 {
-  "uid" : "fa8d1d2bf1c623f1",
+  "uid" : "554b9fca7f12f836",
   "name" : "SKIPED scenario description",
   "fullName" : "simpleTestMock2.story: SKIPED scenario description",
   "historyId" : "DB697AA00B2467B69468C2C1605EECD1",
   "time" : {
-    "start" : 1537115480896,
-    "stop" : 1537115480897,
-    "duration" : 1
+    "start" : 1537116736996,
+    "stop" : 1537116736998,
+    "duration" : 2
   },
   "descriptionHtml" : "As a user<br>I want to perform an action<br>So that I can achieve a business goal",
   "status" : "skipped",
@@ -20,7 +20,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "simpleTestMock2.story"
@@ -55,12 +55,21 @@
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
-        "skipped" : 2,
+        "skipped" : 3,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "fa8d1d2bf1c623f1",
+        "status" : "skipped",
+        "statusDetails" : "Test was ignored by jBehave engine. Root cause is existing '@skip' metatag or story-filter excluding parameter.",
+        "time" : {
+          "start" : 1537115480896,
+          "stop" : 1537115480897,
+          "duration" : 1
+        }
+      }, {
         "uid" : "5f040466cdbda1d",
         "status" : "skipped",
         "statusDetails" : "Test was ignored by jBehave engine. Root cause is existing '@skip' metatag or story-filter excluding parameter.",
@@ -73,6 +82,6 @@
     },
     "tags" : [ "skip=''", "Severity='BLOCKER'" ]
   },
-  "source" : "fa8d1d2bf1c623f1.json",
+  "source" : "554b9fca7f12f836.json",
   "parameterValues" : [ "someParamValue" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "116d35aac2adfc44",
+  "uid" : "e6cec51cf575e24c",
   "name" : "comments in varios places",
   "fullName" : "differentTestStepType.story: comments in varios places",
   "historyId" : "8278ADF482EFC1B6CA905EFA28353775",
   "time" : {
-    "start" : 1537115480147,
-    "stop" : 1537115480182,
-    "duration" : 35
+    "start" : 1537116736282,
+    "stop" : 1537116736313,
+    "duration" : 31
   },
   "descriptionHtml" : "As a <br>I want to <br>So that ",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "!-- comment after TITLE\nMeta:",
       "time" : {
-        "start" : 1537115480157,
-        "stop" : 1537115480158,
-        "duration" : 1
+        "start" : 1537116736293,
+        "stop" : 1537116736293,
+        "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -34,8 +34,8 @@
     }, {
       "name" : "!-- comment after META",
       "time" : {
-        "start" : 1537115480158,
-        "stop" : 1537115480158,
+        "start" : 1537116736295,
+        "stop" : 1537116736295,
         "duration" : 0
       },
       "status" : "skipped",
@@ -49,9 +49,9 @@
     }, {
       "name" : "Given a Calculator",
       "time" : {
-        "start" : 1537115480159,
-        "stop" : 1537115480163,
-        "duration" : 4
+        "start" : 1537116736295,
+        "stop" : 1537116736301,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,8 +64,8 @@
     }, {
       "name" : "!-- MIDDLE step comment",
       "time" : {
-        "start" : 1537115480164,
-        "stop" : 1537115480164,
+        "start" : 1537116736302,
+        "stop" : 1537116736302,
         "duration" : 0
       },
       "status" : "skipped",
@@ -79,9 +79,9 @@
     }, {
       "name" : "When I increment 4 with 1",
       "time" : {
-        "start" : 1537115480164,
-        "stop" : 1537115480169,
-        "duration" : 5
+        "start" : 1537116736302,
+        "stop" : 1537116736305,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -94,9 +94,9 @@
     }, {
       "name" : "Then Calculator returns 5",
       "time" : {
-        "start" : 1537115480169,
-        "stop" : 1537115480174,
-        "duration" : 5
+        "start" : 1537116736305,
+        "stop" : 1537116736309,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,8 +109,8 @@
     }, {
       "name" : "!-- LAST step comment",
       "time" : {
-        "start" : 1537115480180,
-        "stop" : 1537115480180,
+        "start" : 1537116736310,
+        "stop" : 1537116736310,
         "duration" : 0
       },
       "status" : "skipped",
@@ -135,7 +135,7 @@
     "value" : "gcedeploy"
   }, {
     "name" : "thread",
-    "value" : "3021@gcedeploy.pool-1-thread-1(9)"
+    "value" : "3016@gcedeploy.pool-1-thread-1(9)"
   }, {
     "name" : "suite",
     "value" : "differentTestStepType.story"
@@ -159,11 +159,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "116d35aac2adfc44",
+        "status" : "passed",
+        "statusDetails" : "Test passed.",
+        "time" : {
+          "start" : 1537115480147,
+          "stop" : 1537115480182,
+          "duration" : 35
+        }
+      }, {
         "uid" : "c632b8f12ba11f96",
         "status" : "passed",
         "statusDetails" : "Test passed.",
@@ -176,6 +185,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "116d35aac2adfc44.json",
+  "source" : "e6cec51cf575e24c.json",
   "parameterValues" : [ "someParamValue" ]
 }
